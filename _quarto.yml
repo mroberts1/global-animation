@@ -5,7 +5,7 @@ project:
   
 website:
   title: "    "
-  site-url: https://mroberts1.github.io/digital-culture-sp24/
+  site-url: https://mroberts1.github.io/global-animation
   twitter-card:
     creator: "@mroberts_vma"
     card-style: summary_large_image
@@ -46,7 +46,7 @@ format:
         #margin-width: 300px
         #gutter-width: 1em
     linestretch: 1.2
-    fontsize: 1.2em
+    fontsize: 1.3em
     smooth-scroll: true
     linkcolor: "#62259d"
     link-external-newwindow: true
