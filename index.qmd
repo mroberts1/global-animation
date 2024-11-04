@@ -15,7 +15,7 @@ library(palmerpenguins)
 
 ::: column-margin
 <br><br>
-![](img/CollegeLockupStacked.jpg){width="60%"} <br><br><br><br> VM402-07-SP25\
+![](img/CollegeLockupStacked.jpg){width="60%"} <br><br><br> VM402-07-SP25\
 Animation: A Global History\
 4 credits\
 [Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)\
