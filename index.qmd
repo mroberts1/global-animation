@@ -1,8 +1,6 @@
 ---
 title: 'Animation'
 subtitle: 'A Global History'
-author: 'Martin Roberts'
-date: '11-01-24'
 ---
 
 ```{r}
@@ -14,18 +12,306 @@ library(palmerpenguins)
 ```
 
 ::: column-margin
-<br><br>
-![](img/CollegeLockupStacked.jpg){width="60%"} <br><br><br> VM402-07-SP25\
+<br><br> ![](img/CollegeLockupStacked.jpg){width="60%"} <br><br><br> VM402-07-SP25\
 Animation: A Global History\
 4 credits\
 [Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)\
 [Emerson College](https://emerson.edu/)\
 Spring Semester 2025\
+Friday 17 January---1 May 2024\ 
+10:00-13:45\
+Ansin Building 205\
 [Dr. Martin Roberts](http://mroberts.emerson.build/)\
 :::
 
 ![](img/astroboy.webp)
 
+## Overvew
+
 Animation has historically been seen as a sub-category of cinema primarily intended for children; yet it has been suggested that since the arrival of computer-graphic imagery (CGI) since the 1990s cinema itself has increasingly become a subset of animation with photorealistic content. This course reconsiders the place of animation in the history of motion pictures and seeks to recenter it as a fundamental component of cinema itself. Beginning with optical toys such as the zoetrope and the time-motion experiments of Marey and Muybridge, it then considers the origins of animated cinema in the 1920s and 1930s, from the early cartoons of Disney and Fleischer to the groundbreaking silhouette animation of Lotte Reiniger in Germany. Particular attention is given to the role of music in the historical development of animation, from the visual music of Oscar Fischinger to Disney’s *Fantasia* and Raymond Scott’s soundtracks to the Warner Bros. Merrie Melodies cartoons of the 1940-1950s. The course then turns to the wave of experimental animation in Russia, Czechoslovakia (Švankmajer), and Poland from the 1950-1980s, and its later impact on contemporary avant-garde animators such as the Quay Brothers. Parallel to this, it also considers the rise of anime in Japan, from the first anime franchise, Tezuka Osama’s *Astro Boy*, to Studio Ghibli and the emergence of global fandom for Japanese anime since the 1970s. From the 1990s, the course considers the transformation of animation by digital technologies, including the shift from 2D to 3D animation in the movies of Pixar and Dreamworks; the stop-motion claymation of British animator Nick Park; and the digital puppetry of motion capture and green-screening. Returning to the present, it considers the ongoing transformation of the animation industry by today’s algorithmic tools (AI) and the new wave of generative animation. Through this global overview of the history of animation, the course seeks to demonstrate that far from being marginal to the history of cinema, animation has in fact been one of its fundamental principles all along.
+
+## Outcomes
+
+By the end of the course, students will:
+
+-   have acquired a detailed understanding of the global history of animation as a media form; 
+-   understand differences between drawn 2D (cel) animation and digital animation, as well as the different aesthetics associated with these;
+-   be able to apply critical thinking to contemporary developments in animation industries using relevant analytical concepts.
+
+## Course Texts
+
+**Required**  
+Stephen Cavalier, **The World History of Animation**. Foreword by Sylvain Chomet (Berkeley: University of California Press, 2011).
+
+Please order this text as soon as possible.
+
+**Recommended**  
+Some chapters from the texts below will be made available as PDFs; you are  encouraged to purchase at least several of texts that are of interest and read more of them.
+
+\[E\] Maureen Furniss, ed., [**Animation: Art and Industry**](https://ebookcentral.proquest.com/lib/emerson/detail.action?docID=1977963) (New Barnet, Hertfordshire, UK: John Libbey Publishing Ltd., 2012).
+
+\[E\] Daniel Goldmark and Yuval Taylor, eds., [**The Cartoon Music Book**](https://ebookcentral.proquest.com/lib/emerson/detail.action?docID=769839) (Chicago: A Cappella Books, 2020).
+
+Lenny Lipton, **The Cinema in Flux: The Evolution of Motion Picture Technology from the Magic Lantern to the Digital Era** (New York: Springer, 2021).
+
+## Assignments & Evaluation
+
+**Brief Histories (20%)**
+In-class presentations (2) on animation in a specific national context, related to North America, Western/Eastern Europe, Asia, or Central/South America.
+
+**National Case Study (20%)**  
+Case study of an aesthetic movement or style, 1,000 words (4 pages, double-spaced). Due mid-semester.
+
+**Midterm paper (20%)**
+Take-home. 1,000-word essay (4 pages double-spaced) on a selected topic related to global animation history (topics will be provided).
+
+**Research Paper/Project (25%)**  
+Research on an approved topic relevant to the course. Individual or group. Further details will be provided after Spring Break. 1,250-1,500 words.
+
+**Engagement (15%)**  
+Includes attendance, punctuality, preparation, participation in class and/or online discussion,individual conferences. 
+
+## Schedule of Classes
+
+*Week 1*
+
+**Introduction: Mickey-Mousing**
+
+2025-01-17_Fri
+
+Early Disney cartoons: **Steamboat Willie** (1928); **The Skeleton Dance** (1929); **Flowers and Trees** (1932)
+**The Art of Mickey Mousing** (YouTube)
+
+Introduction to pre-cinematic animation
+
+------------------------------------------------------------------------
+
+*Week 2*
+
+**Pre-history of animation**
+
+2025-01-24_Fri
+
+Cavalier, **World History of Animation** 
+
+Screenings: excerpts from **Eadweard Muybridge, Zoopraxographer**;
+
+------------------------------------------------------------------------
+
+*Week 3*
+
+**Lotte Reiniger**
+
+2025-01-31_Fri
+
+Cavalier, **World History of Animation** 
+
+Screening: **The Adventures of Prince Achmed** (in full)
+
+**Brief Histories: North America I**
+
+------------------------------------------------------------------------
+
+*Week 4*
+
+**Visual Music: Walter Ruttmann and Oskar Fischinger**
+
+2025-02-07_Fri
+
+Cavalier, **World History of Animation** 
+
+**Brief Histories: North America 2**
+
+------------------------------------------------------------------------
+
+*Week 5*
+
+**Silly Symphonies**
+
+2024-02-14_Fri
+
+Cavalier, **World History of Animation** 
+
+Screenings: Silly Symphonies, **Fantasia**
+
+**Brief Histories: Western Europe I**
+
+------------------------------------------------------------------------
+
+*Week 6*
+
+**Cartoon Music**
+
+2025-02-21_Fri
+
+Goldmark and Yuval, **The Cartoon Music Book** (selected chapters TBA)
+
+Screening: **Deconstructing Dad: The Music, Machines, and Mystery of Raymond Scott**
+
+**Brief Histories: Western Europe II**
+
+------------------------------------------------------------------------
+
+*Week 7*
+
+**Experimental Animation**
+
+2024-02-28_Fri
+
+Cavalier, **World History of Animation** 
+
+Screening: selected films by Norman McLaren
+
+**Brief Histories: Russia & Eastern Europe I**
+
+**DEADLINE: Midterm**
+
+------------------------------------------------------------------------
+
+*Week 8*
+
+**Svankmajer & the Brothers Quay**
+
+2025-05-07_Fri
+
+Cavalier, **World History of Animation** 
+
+Screenings: **The Cabinet of Jan Svankmajer**; **Street of Crocodiles**
+
+**Brief Histories: Russia and Eastern Europe II**
+
+------------------------------------------------------------------------
+
+**SPRING BREAK**
+
+------------------------------------------------------------------------
+
+*Week 9*
+
+**Studio Ghibli**
+
+2025-03-21_Fri
+
+**Kingdom of Dreams and Madness**
+
+Films: **Pom Poko**; **The Tale of Princess Kaguya**
+
+**Brief Histories: Asia: Japan**
+
+------------------------------------------------------------------------
+
+*Week 10*
+
+**Animation in the Digital Age: CGI and 3D Animation**
+
+2025-03-28_Fri
+
+Tillis, "The Art of Puppetry in the Age of Media Production"
+
+Screenings: Pixar/Dreamworks films
+
+**Brief Histories: Asia: China**
+
+------------------------------------------------------------------------
+
+*Week 11*
+
+**UK Animation: Nick Park**
+
+2025-04-04_Fri
+
+**Coraline**
+
+**Brief Histories: Rest of World I** 
+
+------------------------------------------------------------------------
+
+*Week 12*
+
+**Transnational Animation in the Age of Streaming**
+
+2025-04-11_Fri
+
+Ahn, "Samurai Champloo: Transnational Viewing"
+
+**Samurai Champloo**; **Afro-Samurai**; **Samurai Jack**
+
+**Brief Histories: Rest of World II** 
+
+------------------------------------------------------------------------
+
+*Week 13*
+
+**Everything Everywhere All At Once: The Animation Multiverse**
+
+2025-04-18_Fri
+
+Screening: **Spider-man: Across the Spider-Verse**
+
+------------------------------------------------------------------------
+
+*Week 14*
+
+**Animation and AI**
+
+2025-04-25_Fri
+
+Reading TBA
+
+Demonstration of AI movie animation
+
+**DEADLINE: Research Paper/Project**
+
+------------------------------------------------------------------------
+
+*Week 15*
+
+2025-05-01_Fri
+
+Research Papers/Projects: Exhibition and Discussion
+
+2024-05-01 Fri **Last day of classes**
+
+------------------------------------------------------------------------
+
+#### Policies
+
+------------------------------------------------------------------------
+
+##### Academic Honesty
+
+It is the responsibility of all Emerson students to know and adhere to the College's policy on plagiarism, which can be found at [emerson.edu/policies/plagiarism](https://emerson.edu/policies/plagiarism "Plagiarism"). If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.
+
+------------------------------------------------------------------------
+
+##### Diversity
+
+Every student in this class will be honored and respected as an individual with distinct experiences, talents, and backgrounds. Issues of diversity may be a part of class discussion, assigned material, and projects. The instructor will make every effort to ensure that an inclusive environment exists for all students. If you have any concerns or suggestions for improving the classroom climate, please do not hesitate to speak with the course instructor or to contact the Social Justice Center at 617-824-8528 or by email at [sjc\@emerson.edu](mailto:sjc@emerson.edu).
+
+------------------------------------------------------------------------
+
+##### Discrimination, Harassment, or Sexual Violence
+
+If you have been impacted by discrimination, harassment, or sexual violence, I am available to support you, and help direct you to available resources on and off campus. Additionally, the Office of Equal Opportunity ([oeo\@emerson.edu](mailto:oeo@emerson.edu "Email the Office of Equal Opportunity"); 617-824-8999) is available to meet with you and discuss options to address concerns and to provide you with support resources. Please note that I because I am an Emerson employee, any information shared with me related to discrimination, harassment, or sexual violence will also be shared with the Office of Equal Opportunity.  If you would like to speak with someone confidentially, please contact the Healing & Advocacy Collective, the Emerson Wellness Center, or the Center for Spiritual Life.
+
+------------------------------------------------------------------------
+
+##### Accessibility
+
+Emerson is committed to providing equal access and support to all students who qualify through the provision of reasonable accommodations, so that each student may fully participate in the Emerson experience. If you have a disability that may require accommodations, please contact Student Accessibility Services (SAS) at [SAS\@emerson.edu](mailto:SAS@emerson.edu) or 617-824-8592 to make an appointment with an SAS staff member.
+
+Students are encouraged to contact SAS early in the semester. Please be aware that accommodations are not applied retroactively.
+
+------------------------------------------------------------------------
+
+##### Writing & Academic Resource Center
+
+Students are encouraged to visit and utilize the staff and resources of Emerson's Writing Center, particularly if they are struggling with written assignments. The Writing Center is located at 216 Tremont Street on the 5th floor (tel. 617-824-7874).
+
+------------------------------------------------------------------------
+
+##### In-Class Recording
+
+Regardless of modality or whether this course is being recorded by the College with the permission of the students for classroom purposes, this class is considered a private environment and it is a setting in which copyrighted materials, creative works and educational records may be displayed. Audio or video recording, filming, photographing, viewing, transmitting, producing or publishing the image or voice of another person or that person's materials, creative works or educational records without the person's knowledge and expressed consent is strictly prohibited. 
 
 ------------------------------------------------------------------------

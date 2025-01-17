@@ -5,10 +5,10 @@ project:
   
 website:
   title: "    "
-  site-url: https://mroberts1.github.io/global-animation
-  twitter-card:
-    creator: "@mroberts_vma"
-    card-style: summary_large_image
+  # site-url: https://mroberts1.github.io/global-animation
+  # twitter-card:
+  #   creator: "@mroberts_vma"
+  #   card-style: summary_large_image
   favicon: "/img/cropped-cropped-flourish-1-270x270.gif"
   navbar:
     background: "#62259d"
@@ -56,4 +56,4 @@ execute:
   freeze: auto
 reference-location: margin
 citation-location: margin
-editor: visual
+editor: source
