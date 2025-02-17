@@ -39,7 +39,7 @@ format:
       light: ember.scss
       dark: [ember.scss, slate]
     css: custom.scss
-    self-contained: true
+    #self-contained: true
     grid:
         sidebar-width: 400px
         body-width: 550px
@@ -50,11 +50,9 @@ format:
     smooth-scroll: true
     linkcolor: "#62259d"
     link-external-newwindow: true
-  PrettyPDF-pdf: default
+  #PrettyPDF-pdf: default
 fig-responsive: true
 image-alt: " "
 execute:
   freeze: auto
-reference-location: margin
-citation-location: margin
-editor: source
+
