@@ -13,76 +13,92 @@ library(palmerpenguins)
 
 [![Florent Lebrun, *The Lost Tower* (2025)](img/lost-tower.gif){width="100%"}](https://www.artstation.com/artwork/XJOqQa)
 
-
-::: {.column-margin}
+::: column-margin
 VM402-07-SP25\
 Animation: A Global History\
 4 credits\
 [Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)\
 [Emerson College](https://emerson.edu/)\
 Spring Semester 2025\
-Friday 17 January---1 May 2024\ 
-10:00-13:45\
+Friday 17 January---1 May 2024  10:00-13:45\
 Ansin Building 205\
 [Dr. Martin Roberts](http://mroberts.emerson.build/)\
 :::
 
 ## Overview
 
-Animation has historically been seen as a sub-category of cinema primarily intended for children; yet it has been suggested that since the arrival of computer-graphic imagery (CGI) since the 1990s cinema itself has increasingly become a subset of animation with photorealistic content. This course reconsiders the place of animation in the history of motion pictures and seeks to recenter it as a fundamental component of cinema itself. 
+Animation has historically been seen as a sub-category of cinema primarily intended for children; yet it has been suggested that since the arrival of computer-graphic imagery (CGI) since the 1990s cinema itself has increasingly become a subset of animation with photorealistic content. This course reconsiders the place of animation in the history of motion pictures and seeks to recenter it as a fundamental component of cinema itself.
 
-Beginning with optical toys such as the zoetrope and the time-motion experiments of Marey and Muybridge, it then considers the origins of animated cinema in the 1920s and 1930s, from the early cartoons of Disney and Fleischer to the groundbreaking silhouette animation of Lotte Reiniger in Germany. 
+Beginning with optical toys such as the zoetrope and the time-motion experiments of Marey and Muybridge, it then considers the origins of animated cinema in the 1920s and 1930s, from the early cartoons of Disney and Fleischer to the groundbreaking silhouette animation of Lotte Reiniger in Germany.
 
-Particular attention is given to the role of music in the historical development of animation, from the visual music of Oscar Fischinger to Disney’s *Fantasia* and Raymond Scott’s soundtracks to the Warner Bros. Merrie Melodies cartoons of the 1940-1950s. 
+Particular attention is given to the role of music in the historical development of animation, from the visual music of Oscar Fischinger to Disney’s **Fantasia** and Raymond Scott’s soundtracks to the Warner Bros. Merrie Melodies cartoons of the 1940-1950s.
 
-The course then turns to the wave of experimental animation in Russia, Czechoslovakia (Švankmajer), and Poland from the 1950-1980s, and its later impact on contemporary avant-garde animators such as the Quay Brothers. Parallel to this, it also considers the rise of anime in Japan, from the first anime franchise, Tezuka Osama’s *Astro Boy*, to Studio Ghibli and the emergence of global fandom for Japanese anime since the 1970s. 
+The course then turns to the wave of experimental animation in Russia, Czechoslovakia (Švankmajer), and Poland from the 1950-1980s, and its later impact on contemporary avant-garde animators such as the Quay Brothers. Parallel to this, it also considers the rise of anime in Japan, from the first anime franchise, Tezuka Osama’s **Astro Boy**, to Studio Ghibli and the emergence of global fandom for Japanese anime since the 1970s.
 
-From the 1990s, the course considers the transformation of animation by digital technologies, including the shift from 2D to 3D animation in the movies of Pixar and Dreamworks; the stop-motion claymation of British animator Nick Park; and the digital puppetry of motion capture and green-screening. 
+From the 1990s, the course considers the transformation of animation by digital technologies, including the shift from 2D to 3D animation in the movies of Pixar and Dreamworks; the stop-motion claymation of British animator Nick Park; and the digital puppetry of motion capture and green-screening.
 
-Returning to the present, it considers the ongoing transformation of the animation industry by today’s algorithmic tools (AI) and the new wave of generative animation. 
+Returning to the present, it considers the ongoing transformation of the animation industry by today’s algorithmic tools (AI) and the new wave of generative animation.
 
 Through this global overview of the history of animation, the course seeks to demonstrate that far from being marginal to the history of cinema, animation has in fact been one of its fundamental principles all along.
+
+
 
 ## Outcomes
 
 By the end of the course, students will:
 
--   have acquired a detailed understanding of the global history of animation as a media form; 
+-   have acquired a detailed understanding of the global history of animation as a media form;
+
 -   understand differences between drawn 2D (cel) animation and digital animation, as well as the different aesthetics associated with these;
+
 -   be able to apply critical thinking to contemporary developments in animation industries using relevant analytical concepts.
+
+
 
 ## Course Texts
 
-**Required**  
-Stephen Cavalier, **The World History of Animation**. Foreword by Sylvain Chomet (Berkeley: University of California Press, 2011).
+**Required**\
+Stephen Cavalier, **The World History of Animation**. Foreword by Sylvain Chomet (Berkeley: University of California Press, 2011).
 
 Please order this text as soon as possible.
 
-**Recommended**  
-Some chapters from the texts below will be made available as PDFs; you are  encouraged to purchase at least several of texts that are of interest and read more of them.
+**Recommended**\
+Some chapters from the texts below will be made available as PDFs; you are encouraged to purchase at least several of texts that are of interest and read more of them.
 
-\[E\] Maureen Furniss, ed., [**Animation: Art and Industry**](https://ebookcentral.proquest.com/lib/emerson/detail.action?docID=1977963) (New Barnet, Hertfordshire, UK: John Libbey Publishing Ltd., 2012).
+John Culhane / Walt Disney Productions, [**Walt Disney's 'Fantasia'**](https://research.ebsco.com/c/vvyzha/search/details/bcdhh3er5f?limiters=FT1%3AY&q=john%20culhane%20fantasia) (New York: H.N. Abrams, 1983).
 
-\[E\] Daniel Goldmark and Yuval Taylor, eds., [**The Cartoon Music Book**](https://ebookcentral.proquest.com/lib/emerson/detail.action?docID=769839) (Chicago: A Cappella Books, 2020).
+\[E\] Maureen Furniss, ed., [**Animation: Art and Industry**](https://ebookcentral.proquest.com/lib/emerson/detail.action?docID=1977963) (New Barnet, Hertfordshire, UK: John Libbey Publishing Ltd., 2012).
 
-Lenny Lipton, **The Cinema in Flux: The Evolution of Motion Picture Technology from the Magic Lantern to the Digital Era** (New York: Springer, 2021).
+\[E\] Daniel Goldmark and Yuval Taylor, eds., [**The Cartoon Music Book**](https://ebookcentral.proquest.com/lib/emerson/detail.action?docID=769839) (Chicago: A Cappella Books, 2020).
+
+Lenny Lipton, **The Cinema in Flux: The Evolution of Motion Picture Technology from the Magic Lantern to the Digital Era** (New York: Springer, 2021).
+
+**Resources**
+
+[**The Crankie Factory**](https://www.thecrankiefactory.com/)
+
+[**Baltimore Crankie Festival 2025**](https://creativealliance.org/event/2025-baltimore-crankie-festival/)5
+
+[**Center for Visual Music**](http://www.centerforvisualmusic.org/)
+
+
 
 ## Assignments & Evaluation
 
-**Brief Histories (20%)**
-In-class presentations (2) on animation in a specific national context, related to North America, Western/Eastern Europe, Asia, or Central/South America.
+**Brief Histories (20%)** In-class presentations (2) on animation in a specific national context, related to North America, Western/Eastern Europe, Asia, or Central/South America.
 
-**National Case Study (20%)**  
+**National Case Study (20%)**\
 Case study of an aesthetic movement or style, 1,000 words (4 pages, double-spaced). Due mid-semester.
 
-**Midterm paper (20%)**
-Take-home. 1,000-word essay (4 pages double-spaced) on a selected topic related to global animation history (topics will be provided).
+**Midterm paper (20%)** Take-home. 1,000-word essay (4 pages double-spaced) on a selected topic related to global animation history (topics will be provided).
 
-**Research Paper/Project (25%)**  
+**Research Paper/Project (25%)**\
 Research on an approved topic relevant to the course. Individual or group. Further details will be provided after Spring Break. 1,250-1,500 words.
 
-**Engagement (15%)**  
-Includes attendance, punctuality, preparation, participation in class and/or online discussion,individual conferences. 
+**Engagement (15%)**\
+Includes attendance, punctuality, preparation, participation in class and/or online discussion,individual conferences.
+
+
 
 ## Schedule of Classes
 
@@ -92,12 +108,11 @@ Includes attendance, punctuality, preparation, participation in class and/or onl
 
 2025-01-17_Fri
 
-Early Disney cartoons: **Steamboat Willie** (1928); **The Skeleton Dance** (1929); **Flowers and Trees** (1932)
-**The Art of Mickey Mousing** (YouTube)
+Early Disney cartoons: **Steamboat Willie** (1928); **The Skeleton Dance** (1929); **The Art of Mickey Mousing** (YouTube)
 
 Introduction to pre-cinematic animation
 
-------------------------------------------------------------------------
+***
 
 *Week 2*
 
@@ -105,25 +120,45 @@ Introduction to pre-cinematic animation
 
 2025-01-24_Fri
 
-Cavalier, **World History of Animation** 
+Cavalier, **World History of Animation**: "[Pre-1900: The Origins of Animation](pdf/global-animation-ch2.pdf")"
 
-Screenings: excerpts from **Eadweard Muybridge, Zoopraxographer**;
+Lipton, **The Cinema in Flux**: "[The Zoëtrope and the Praxinoscope](pdf/lipton-zoetrope-praxinoscope.pdf)" (ch. 6); "[Muybridge and Anschütz](pdf/lipton-muybridge.pdf)" (ch. 10)
 
-------------------------------------------------------------------------
+Rehak, "[The Migration of Forms: Bullet Time as Microgenre](pdf/Rehak-MigrationFormsBullet-2007.pdf)" (**Film Criticism** 32: 1 (Fall 2007): 26-48)
+
+Robert A. Gonsalves, "[Muybridge Derby: Bringing Animal Locomotion Photographs to Life with AI](https://towardsdatascience.com/muybridge-derby-bringing-animal-locomotion-photographs-to-life-with-ai-b1918e6622ec)" (**Medium**, 25 July 2023) 
+
+Screenings: excerpts from **Eadweard Muybridge, Zoopraxographer**
+
+***
 
 *Week 3*
 
 **Lotte Reiniger**
 
+::: {.column-margin}
+![](img/achmed-poster.jpg){width="100%"}
+:::
+
 2025-01-31_Fri
 
-Cavalier, **World History of Animation** 
+Cavalier, "[1925-1926 Germany](pdf/cavalier-reiniger.pdf)" in **World History of Animation**
 
-Screening: **The Adventures of Prince Achmed** (in full)
+Moritz, "[Some Critical Perspectives on Lotte Reiniger](pdf/moritz-reiniger-ch2.pdf)" (in Furniss, **Animation: Art and History**, ch. 2)  
 
-**Brief Histories: North America I**
+Justin Joffe, "[How Swedish Band Dungen Scored the Oldest Surviving Animated Film](https://observer.com/2017/03/dungen-band-haxan-interview/)" (**Observer**, 24 March 2017)
 
-------------------------------------------------------------------------
+[**Dungen presents 'The Adventures of Prince Achmed'**](https://sarahannecooper.com/Dungen-The-Adventures-of-Prince-Achmed) (Getty Museum, 21 March 2017)
+
+[Milestone Film press release for *The Adventures of Prince Achmed*](pdf/Lotte-Reiniger-Intro.pdf)
+
+Dungen, [*Häxan*](https://dungen.bandcamp.com/album/h-xan-2) (soundtrack)
+
+Screening: **The Adventures of Prince Achmed** (in full)
+
+[**Brief Histories: North America I**](pdf/animation-brief-histories.pdf)
+
+***
 
 *Week 4*
 
@@ -131,11 +166,15 @@ Screening: **The Adventures of Prince Achmed** (in full)
 
 2025-02-07_Fri
 
-Cavalier, **World History of Animation** 
+Cavalier, **World History of Animation**
 
-**Brief Histories: North America 2**
+[**Center for Visual Music**](http://www.centerforvisualmusic.org/)
 
-------------------------------------------------------------------------
+Paul Friedlander, "[**What is Visual Music?**](https://paulfriedlander.com/text/visualmusic.html)"
+
+[**Brief Histories: North America 2**](pdf/animation-brief-histories.pdf)
+
+***
 
 *Week 5*
 
@@ -143,13 +182,19 @@ Cavalier, **World History of Animation**
 
 2024-02-14_Fri
 
-Cavalier, **World History of Animation** 
+Cavalier, "1928-1957: Film Animation: The Golden Age of Cartoons" (USA sections, especially "1941 USA: Disney: **Fantasia")** in **World History of Animation**
 
-Screenings: Silly Symphonies, **Fantasia**
+Charles Granata, “[Disney, Stokowski, and the Genius of **Fantasia**](pdf/Cartoon_Music_Book_----_(Disney,_Stokowski,_and_the_Genuis_of_Fantasia).pdf)”
 
-**Brief Histories: Western Europe I**
+Culhane/Walt Disney Productions, "[The Making of **Fantasia**]pdf/fantasia.pdf)"
 
-------------------------------------------------------------------------
+Edward H. Plumb, “[The Future of Fantasound](https://archive.org/details/journalofsociety39socirich/page/16/mode/2up?view=theater)” (1942)
+
+Watch: Disney, [**Fantasia**](https://libcat.emerson.edu/Record/e947123) (1940)
+
+[**Brief Histories: Western Europe I**](pdf/animation-brief-histories.pdf)
+
+***
 
 *Week 6*
 
@@ -157,13 +202,23 @@ Screenings: Silly Symphonies, **Fantasia**
 
 2025-02-21_Fri
 
-Goldmark and Yuval, **The Cartoon Music Book** (selected chapters TBA)
+Goldmark and Yuval, **The Cartoon Music Book**:
 
-Screening: **Deconstructing Dad: The Music, Machines, and Mystery of Raymond Scott**
+Strauss, “[**Tunes for Toons: A Cartoon Music Primer**](pdf/Cartoon_Music_Book_----_(Tunes_for_Toons_A_Cartoon_Music_Primer).pdf)”
 
-**Brief Histories: Western Europe II**
+Barrier, “[**An Interview with Carl Stalling**](pdf/Cartoon_Music_Book_----_(An_Interview_with_Carl_Stalling).pdf)”
 
-------------------------------------------------------------------------
+Friedwald, “[**Sublime Perversity: The Music of Carl Stalling**](pdf/Cartoon_Music_Book_----_(Sublime_Perversity_The_Music_of_Carl_Stalling).pdf)”
+
+Chusid, “[**Raymond Scott: Accidental Music for Animated Mayhem**](pdf/Cartoon_Music_Book_----_(Raymond_Scott_Accidental_Music_for_Animated_Mayhem).pdfS)”
+
+Brophy, “[**An Interview with John Zorn**](pdf/Cartoon_Music_Book_----_(An_Interview_with_John_Zorn).pdf)”
+
+Screening: **Deconstructing Dad: The Music, Machines, and Mystery of Raymond Scott**
+
+[**Brief Histories: Western Europe II**](pdf/animation-brief-histories.pdf")
+
+***
 
 *Week 7*
 
@@ -171,15 +226,15 @@ Screening: **Deconstructing Dad: The Music, Machines, and Mystery of Raymond Sco
 
 2024-02-28_Fri
 
-Cavalier, **World History of Animation** 
+Cavalier, **World History of Animation**
 
 Screening: selected films by Norman McLaren
 
-**Brief Histories: Russia & Eastern Europe I**
+[**Brief Histories: Russia & Eastern Europe I**](https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1 "animation-brief-histories.pdf")
 
 **DEADLINE: Midterm**
 
-------------------------------------------------------------------------
+***
 
 *Week 8*
 
@@ -187,17 +242,17 @@ Screening: selected films by Norman McLaren
 
 2025-05-07_Fri
 
-Cavalier, **World History of Animation** 
+Cavalier, **World History of Animation**
 
-Screenings: **The Cabinet of Jan Svankmajer**; **Street of Crocodiles**
+Screenings: **The Cabinet of Jan Svankmajer**; **Street of Crocodiles**
 
-**Brief Histories: Russia and Eastern Europe II**
+[**Brief Histories: Russia and Eastern Europe II**](https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1 "animation-brief-histories.pdf")
 
-------------------------------------------------------------------------
+***
 
 **SPRING BREAK**
 
-------------------------------------------------------------------------
+***
 
 *Week 9*
 
@@ -207,11 +262,11 @@ Screenings: **The Cabinet of Jan Svankmajer**; **Street of Crocodiles**
 
 **Kingdom of Dreams and Madness**
 
-Films: **Pom Poko**; **The Tale of Princess Kaguya**
+Films: **Pom Poko**; **The Tale of Princess Kaguya**
 
-**Brief Histories: Asia: Japan**
+[**Brief Histories: Asia: Japan**](https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1 "animation-brief-histories.pdf")
 
-------------------------------------------------------------------------
+***
 
 *Week 10*
 
@@ -219,13 +274,13 @@ Films: **Pom Poko**; **The Tale of Princess Kaguya**
 
 2025-03-28_Fri
 
-Tillis, "The Art of Puppetry in the Age of Media Production"
+Tillis, “The Art of Puppetry in the Age of Media Production”
 
 Screenings: Pixar/Dreamworks films
 
-**Brief Histories: Asia: China**
+[**Brief Histories: Asia: China**](https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1 "animation-brief-histories.pdf")
 
-------------------------------------------------------------------------
+***
 
 *Week 11*
 
@@ -235,9 +290,9 @@ Screenings: Pixar/Dreamworks films
 
 **Coraline**
 
-**Brief Histories: Rest of World I** 
+[**Brief Histories: Rest of World I**](https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1 "animation-brief-histories.pdf")
 
-------------------------------------------------------------------------
+***
 
 *Week 12*
 
@@ -245,13 +300,13 @@ Screenings: Pixar/Dreamworks films
 
 2025-04-11_Fri
 
-Ahn, "Samurai Champloo: Transnational Viewing"
+Ahn, “Samurai Champloo: Transnational Viewing”
 
-**Samurai Champloo**; **Afro-Samurai**; **Samurai Jack**
+**Samurai Champloo**; **Afro-Samurai**; **Samurai Jack**
 
-**Brief Histories: Rest of World II** 
+[**Brief Histories: Rest of World II**](https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1 "animation-brief-histories.pdf")
 
-------------------------------------------------------------------------
+***
 
 *Week 13*
 
@@ -259,9 +314,9 @@ Ahn, "Samurai Champloo: Transnational Viewing"
 
 2025-04-18_Fri
 
-Screening: **Spider-man: Across the Spider-Verse**
+Screening: **Spider-man: Across the Spider-Verse**
 
-------------------------------------------------------------------------
+***
 
 *Week 14*
 
@@ -275,7 +330,7 @@ Demonstration of AI movie animation
 
 **DEADLINE: Research Paper/Project**
 
-------------------------------------------------------------------------
+***
 
 *Week 15*
 
@@ -283,48 +338,47 @@ Demonstration of AI movie animation
 
 Research Papers/Projects: Exhibition and Discussion
 
-2024-05-01 Fri **Last day of classes**
+2024-05-01 Fri **Last day of classes**
 
-------------------------------------------------------------------------
 
-#### Policies
+### **Policies**
 
-------------------------------------------------------------------------
 
-##### Academic Honesty
 
-It is the responsibility of all Emerson students to know and adhere to the College's policy on plagiarism, which can be found at [emerson.edu/policies/plagiarism](https://emerson.edu/policies/plagiarism "Plagiarism"). If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.
+##### **Academic Honesty**
 
-------------------------------------------------------------------------
+It is the responsibility of all Emerson students to know and adhere to the College’s policy on plagiarism, which can be found at [emerson.edu/policies/plagiarism](https://emerson.edu/policies/plagiarism "Plagiarism"). If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.
 
-##### Diversity
+
+
+##### **Diversity**
 
 Every student in this class will be honored and respected as an individual with distinct experiences, talents, and backgrounds. Issues of diversity may be a part of class discussion, assigned material, and projects. The instructor will make every effort to ensure that an inclusive environment exists for all students. If you have any concerns or suggestions for improving the classroom climate, please do not hesitate to speak with the course instructor or to contact the Social Justice Center at 617-824-8528 or by email at [sjc\@emerson.edu](mailto:sjc@emerson.edu).
 
-------------------------------------------------------------------------
 
-##### Discrimination, Harassment, or Sexual Violence
 
-If you have been impacted by discrimination, harassment, or sexual violence, I am available to support you, and help direct you to available resources on and off campus. Additionally, the Office of Equal Opportunity ([oeo\@emerson.edu](mailto:oeo@emerson.edu "Email the Office of Equal Opportunity"); 617-824-8999) is available to meet with you and discuss options to address concerns and to provide you with support resources. Please note that I because I am an Emerson employee, any information shared with me related to discrimination, harassment, or sexual violence will also be shared with the Office of Equal Opportunity.  If you would like to speak with someone confidentially, please contact the Healing & Advocacy Collective, the Emerson Wellness Center, or the Center for Spiritual Life.
+##### **Discrimination, Harassment, or Sexual Violence**
 
-------------------------------------------------------------------------
+If you have been impacted by discrimination, harassment, or sexual violence, I am available to support you, and help direct you to available resources on and off campus. Additionally, the Office of Equal Opportunity ([oeo\@emerson.edu](mailto:oeo@emerson.edu); 617-824-8999) is available to meet with you and discuss options to address concerns and to provide you with support resources. Please note that I because I am an Emerson employee, any information shared with me related to discrimination, harassment, or sexual violence will also be shared with the Office of Equal Opportunity.  If you would like to speak with someone confidentially, please contact the Healing & Advocacy Collective, the Emerson Wellness Center, or the Center for Spiritual Life.
 
-##### Accessibility
+
+
+##### **Accessibility**
 
 Emerson is committed to providing equal access and support to all students who qualify through the provision of reasonable accommodations, so that each student may fully participate in the Emerson experience. If you have a disability that may require accommodations, please contact Student Accessibility Services (SAS) at [SAS\@emerson.edu](mailto:SAS@emerson.edu) or 617-824-8592 to make an appointment with an SAS staff member.
 
 Students are encouraged to contact SAS early in the semester. Please be aware that accommodations are not applied retroactively.
 
-------------------------------------------------------------------------
 
-##### Writing & Academic Resource Center
 
-Students are encouraged to visit and utilize the staff and resources of Emerson's Writing Center, particularly if they are struggling with written assignments. The Writing Center is located at 216 Tremont Street on the 5th floor (tel. 617-824-7874).
+##### **Writing & Academic Resource Center**
 
-------------------------------------------------------------------------
+Students are encouraged to visit and utilize the staff and resources of Emerson’s Writing Center, particularly if they are struggling with written assignments. The Writing Center is located at 216 Tremont Street on the 5th floor (tel. 617-824-7874).
 
-##### In-Class Recording
 
-Regardless of modality or whether this course is being recorded by the College with the permission of the students for classroom purposes, this class is considered a private environment and it is a setting in which copyrighted materials, creative works and educational records may be displayed. Audio or video recording, filming, photographing, viewing, transmitting, producing or publishing the image or voice of another person or that person's materials, creative works or educational records without the person's knowledge and expressed consent is strictly prohibited. 
 
-------------------------------------------------------------------------
+##### **In-Class Recording**
+
+Regardless of modality or whether this course is being recorded by the College with the permission of the students for classroom purposes, this class is considered a private environment and it is a setting in which copyrighted materials, creative works and educational records may be displayed. Audio or video recording, filming, photographing, viewing, transmitting, producing or publishing the image or voice of another person or that person’s materials, creative works or educational records without the person’s knowledge and expressed consent is strictly prohibited. 
+
+
