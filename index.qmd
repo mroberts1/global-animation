@@ -11,7 +11,9 @@ library(tidyverse)
 library(palmerpenguins)
 ```
 
-[![Florent Lebrun, *The Lost Tower* (2025)](img/lost-tower.gif){width="100%"}](https://www.artstation.com/artwork/XJOqQa)
+<!-- [![Florent Lebrun, *The Lost Tower* (2025)](img/lost-tower.gif){width="100%"}](https://www.artstation.com/artwork/XJOqQa) -->
+
+![](img/space-dogs-animatediff.gif)  
 
 ::: column-margin
 VM402-07-SP25\
