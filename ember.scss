@@ -34,13 +34,13 @@ $font-family-sans-serif:  "Europa", "Source Sans", "Inter", "IBM Plex Sans", "Pu
 // use IBM Plex Mono
 $font-family-monospace: "Overpass Mono", "Roboto Mono", "IBM Plex Mono", monospace, monospace;
 
-$font-family-serif: "Source Serif Pro", "Literata", "Piazzolla", serif;
+$font-family-serif: "Georgia", "Charter", "Source Serif Pro", "Literata", "Piazzolla", serif;
 
 /*-- scss:rules --*/
 
 // litera is serif by default: revert to san-serif
 p, li, {
-  font-family: $font-family-sans-serif;
+  font-family: $font-family-serif;
 }
 
 h1 {

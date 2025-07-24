@@ -1,6 +1,7 @@
 ---
 title: 'Animation'
 subtitle: 'A Global History'
+smartquotes: true
 ---
 
 ```{r}
@@ -29,7 +30,7 @@ Ansin Building 205\
 
 :::
 
-## **Overview**
+## Overview
 
 Animation has historically been seen as a sub-category of cinema primarily intended for children; yet it has been suggested that since the arrival of computer-graphic imagery (CGI) since the 1990s cinema itself has increasingly become a subset of animation with photorealistic content. This course reconsiders the place of animation in the history of motion pictures and seeks to recenter it as a fundamental component of cinema itself.
 
@@ -47,7 +48,7 @@ Through this global overview of the history of animation, the course seeks to de
 
 ----------
 
-## **Outcomes**
+## Outcomes
 
 By the end of the course, students will:
 
@@ -57,7 +58,7 @@ By the end of the course, students will:
 
 ----------
 
-## **Course Texts**
+## Course Texts
 
 _Required_  
 Stephen Cavalier, **The World History of Animation**. Foreword by Sylvain Chomet (Berkeley: University of California Press, 2011).
@@ -79,7 +80,7 @@ Nichola Dobson, Annabelle Honess Roe, Amy Ratelle, Caroline Ruddell, eds.,  [**T
 
 Lenny Lipton, **The Cinema in Flux: The Evolution of Motion Picture Technology from the Magic Lantern to the Digital Era** (New York: Springer, 2021).
 
-**Research Resources**
+*Research Resources*
 
 [**Animation Studies**](https://oldjournal.animationstudies.org/)  (peer-reviewed academic journal)
 
@@ -103,7 +104,7 @@ Lenny Lipton, **The Cinema in Flux: The Evolution of Motion Picture Technology f
 
 ----------
 
-## **Assignments & Evaluation**
+## Assignments & Evaluation
 
 **Brief Histories (20%)**  
 In-class presentations (2) on animation in a specific national context, related to North America, Western/Eastern Europe, Asia, or Central/South America.
@@ -122,7 +123,7 @@ Includes attendance, punctuality, preparation, participation in class and/or onl
 
 ----------
 
-## **Schedule of Classes**
+## Schedule of Classes
 
 _Week 1_
 
