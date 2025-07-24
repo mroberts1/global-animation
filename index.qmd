@@ -11,11 +11,12 @@ library(tidyverse)
 library(palmerpenguins)
 ```
 
-<!-- [![Florent Lebrun, *The Lost Tower* (2025)](img/lost-tower.gif){width="100%"}](https://www.artstation.com/artwork/XJOqQa) -->
+[![Florent Lebrun, *The Lost Tower* (2025)](img/lost-tower.gif){width="100%"}](https://www.artstation.com/artwork/XJOqQa)
 
-![](img/space-dogs-animatediff.gif)  
+<!-- ![](img/space-dogs-animatediff.gif)   -->
 
-::: column-margin
+::: {.column-margin}
+
 VM402-07-SP25\
 Animation: A Global History\
 4 credits\
@@ -25,17 +26,18 @@ Spring Semester 2025\
 Friday 17 January---1 May 2024  10:00-13:45\
 Ansin Building 205\
 [Dr. Martin Roberts](http://mroberts.emerson.build/)\
+
 :::
 
-## Overview
+## **Overview**
 
 Animation has historically been seen as a sub-category of cinema primarily intended for children; yet it has been suggested that since the arrival of computer-graphic imagery (CGI) since the 1990s cinema itself has increasingly become a subset of animation with photorealistic content. This course reconsiders the place of animation in the history of motion pictures and seeks to recenter it as a fundamental component of cinema itself.
 
 Beginning with optical toys such as the zoetrope and the time-motion experiments of Marey and Muybridge, it then considers the origins of animated cinema in the 1920s and 1930s, from the early cartoons of Disney and Fleischer to the groundbreaking silhouette animation of Lotte Reiniger in Germany.
 
-Particular attention is given to the role of music in the historical development of animation, from the visual music of Oscar Fischinger to Disney’s **Fantasia** and Raymond Scott’s soundtracks to the Warner Bros. Merrie Melodies cartoons of the 1940-1950s.
+Particular attention is given to the role of music in the historical development of animation, from the visual music of Oscar Fischinger to Disney’s _Fantasia_ and Raymond Scott’s soundtracks to the Warner Bros. Merrie Melodies cartoons of the 1940-1950s.
 
-The course then turns to the wave of experimental animation in Russia, Czechoslovakia (Švankmajer), and Poland from the 1950-1980s, and its later impact on contemporary avant-garde animators such as the Quay Brothers. Parallel to this, it also considers the rise of anime in Japan, from the first anime franchise, Tezuka Osama’s **Astro Boy**, to Studio Ghibli and the emergence of global fandom for Japanese anime since the 1970s.
+The course then turns to the wave of experimental animation in Russia, Czechoslovakia (Švankmajer), and Poland from the 1950-1980s, and its later impact on contemporary avant-garde animators such as the Quay Brothers. Parallel to this, it also considers the rise of anime in Japan, from the first anime franchise, Tezuka Osama’s _Astro Boy_, to Studio Ghibli and the emergence of global fandom for Japanese anime since the 1970s.
 
 From the 1990s, the course considers the transformation of animation by digital technologies, including the shift from 2D to 3D animation in the movies of Pixar and Dreamworks; the stop-motion claymation of British animator Nick Park; and the digital puppetry of motion capture and green-screening.
 
@@ -43,309 +45,355 @@ Returning to the present, it considers the ongoing transformation of the animati
 
 Through this global overview of the history of animation, the course seeks to demonstrate that far from being marginal to the history of cinema, animation has in fact been one of its fundamental principles all along.
 
+----------
 
-
-## Outcomes
+## **Outcomes**
 
 By the end of the course, students will:
 
 -   have acquired a detailed understanding of the global history of animation as a media form;
-
 -   understand differences between drawn 2D (cel) animation and digital animation, as well as the different aesthetics associated with these;
-
 -   be able to apply critical thinking to contemporary developments in animation industries using relevant analytical concepts.
 
+----------
 
+## **Course Texts**
 
-## Course Texts
-
-**Required**\
-Stephen Cavalier, **The World History of Animation**. Foreword by Sylvain Chomet (Berkeley: University of California Press, 2011).
+_Required_  
+Stephen Cavalier, **The World History of Animation**. Foreword by Sylvain Chomet (Berkeley: University of California Press, 2011).
 
 Please order this text as soon as possible.
 
-**Recommended**\
+_Recommended_  
 Some chapters from the texts below will be made available as PDFs; you are encouraged to purchase at least several of texts that are of interest and read more of them.
 
-John Culhane / Walt Disney Productions, [**Walt Disney's 'Fantasia'**](https://research.ebsco.com/c/vvyzha/search/details/bcdhh3er5f?limiters=FT1%3AY&q=john%20culhane%20fantasia) (New York: H.N. Abrams, 1983).
+Marie Beardmore, [**John Coates: The Man Who Built 'The Snowman'**](https://ebookcentral.proquest.com/lib/emerson/reader.action?docID=1977964&ppg=1)  Epilogue by John Coates, Epilogue by Raymond Briggs (New Barnet, Hertfordshire: John Libbey Publishing Inc., 2011).
 
-\[E\] Maureen Furniss, ed., [**Animation: Art and Industry**](https://ebookcentral.proquest.com/lib/emerson/detail.action?docID=1977963) (New Barnet, Hertfordshire, UK: John Libbey Publishing Ltd., 2012).
+John Culhane / Walt Disney Productions,  [**Walt Disney's 'Fantasia'**](https://research.ebsco.com/c/vvyzha/search/details/bcdhh3er5f?limiters=FT1%3AY&q=john%20culhane%20fantasia)  (New York: H.N. Abrams, 1983).
 
-\[E\] Daniel Goldmark and Yuval Taylor, eds., [**The Cartoon Music Book**](https://ebookcentral.proquest.com/lib/emerson/detail.action?docID=769839) (Chicago: A Cappella Books, 2020).
+Nichola Dobson, Annabelle Honess Roe, Amy Ratelle, Caroline Ruddell, eds.,  [**The Animation Studies Reader**](https://search.worldcat.org/title/1012343033)  (New York: Bloomsbury Academic, 2019).
 
-Lenny Lipton, **The Cinema in Flux: The Evolution of Motion Picture Technology from the Magic Lantern to the Digital Era** (New York: Springer, 2021).
+[E] Maureen Furniss, ed., [**Animation: Art and Industry**](https://ebookcentral.proquest.com/lib/emerson/detail.action?docID=1977963) (New Barnet, Hertfordshire, UK: John Libbey Publishing Ltd., 2012).
 
-**Resources**
+[E] Daniel Goldmark and Yuval Taylor, eds., [**The Cartoon Music Book**](https://ebookcentral.proquest.com/lib/emerson/detail.action?docID=769839) (Chicago: A Cappella Books, 2020).
 
-[**The Crankie Factory**](https://www.thecrankiefactory.com/)
+Lenny Lipton, **The Cinema in Flux: The Evolution of Motion Picture Technology from the Magic Lantern to the Digital Era** (New York: Springer, 2021).
 
-[**Baltimore Crankie Festival 2025**](https://creativealliance.org/event/2025-baltimore-crankie-festival/)5
+**Research Resources**
 
-[**Center for Visual Music**](http://www.centerforvisualmusic.org/)
+[**Animation Studies**](https://oldjournal.animationstudies.org/)  (peer-reviewed academic journal)
 
+[**Mechademia**](https://www.mechademia.net/)  (older academic conference and theory-oriented academic journal on anime and manga cultures)
 
+[**Mechademia Second Arc**](https://www.mechademia.net/journal/second-arc)  (current iteration of  **Mechademia**)
 
-## Assignments & Evaluation
+[Great Women Animators](https://greatwomenanimators.com/about)
 
-**Brief Histories (20%)** In-class presentations (2) on animation in a specific national context, related to North America, Western/Eastern Europe, Asia, or Central/South America.
+[USSR Animation](https://www.youtube.com/playlist?list=PLe8Ab_f774yJ1ZwkPPIGDSdwFf3Jt-lfq)  (YouTube playlist curated by Lev Manovich)
 
-**National Case Study (20%)**\
+[Skywigly](https://www.skwigly.co.uk/)  (online animation magazine)
+
+[100 Greatest Animated Shorts](https://www.skwigly.co.uk/author/stephen-cavalier)  (by Stephen Cavalier, on Skywigly)
+
+[The Crankie Factory](https://www.thecrankiefactory.com/)
+
+[Baltimore Crankie Festival 202](https://creativealliance.org/event/2025-baltimore-crankie-festival)5
+
+[Center for Visual Music](http://www.centerforvisualmusic.org/)
+
+----------
+
+## **Assignments & Evaluation**
+
+**Brief Histories (20%)**  
+In-class presentations (2) on animation in a specific national context, related to North America, Western/Eastern Europe, Asia, or Central/South America.
+
+**National Case Study (20%)**    
 Case study of an aesthetic movement or style, 1,000 words (4 pages, double-spaced). Due mid-semester.
 
-**Midterm paper (20%)** Take-home. 1,000-word essay (4 pages double-spaced) on a selected topic related to global animation history (topics will be provided).
+**Midterm paper (20%)**  
+Take-home. 1,000-word essay (4 pages double-spaced) on a selected topic related to global animation history (topics will be provided).
 
-**Research Paper/Project (25%)**\
+**Research Paper/Project (25%)**    
 Research on an approved topic relevant to the course. Individual or group. Further details will be provided after Spring Break. 1,250-1,500 words.
 
-**Engagement (15%)**\
+**Engagement (15%)**  
 Includes attendance, punctuality, preparation, participation in class and/or online discussion,individual conferences.
 
+----------
 
+## **Schedule of Classes**
 
-## Schedule of Classes
-
-*Week 1*
+_Week 1_
 
 **Introduction: Mickey-Mousing**
 
 2025-01-17_Fri
 
-Early Disney cartoons: **Steamboat Willie** (1928); **The Skeleton Dance** (1929); **The Art of Mickey Mousing** (YouTube)
+Early Disney cartoons: **Steamboat Willie** (1928); **The Skeleton Dance**  (1929); **The Art of Mickey Mousing** (YouTube)
 
 Introduction to pre-cinematic animation
 
-***
+----------
 
-*Week 2*
+_Week 2_
 
 **Pre-history of animation**
 
 2025-01-24_Fri
 
-Cavalier, **World History of Animation**: "[Pre-1900: The Origins of Animation](pdf/global-animation-ch2.pdf")"
+Cavalier, **World History of Animation**: "[Pre-1900: The Origins of Animation](pdf/global-animation-ch2.pdf)"
 
-Lipton, **The Cinema in Flux**: "[The Zoëtrope and the Praxinoscope](pdf/lipton-zoetrope-praxinoscope.pdf)" (ch. 6); "[Muybridge and Anschütz](pdf/lipton-muybridge.pdf)" (ch. 10)
+Lipton, **The Cinema in Flux**: "[The Zoëtrope and the Praxinoscope](pdf/lipton-zoetrope-praxinoscope.pdf)" (ch. 6);\ "[Muybridge and Anschütz](pdf/lipton-muybridge.pdf)" (ch. 10)
 
-Rehak, "[The Migration of Forms: Bullet Time as Microgenre](pdf/Rehak-MigrationFormsBullet-2007.pdf)" (**Film Criticism** 32: 1 (Fall 2007): 26-48)
+Rehak, "[The Migration of Forms: Bullet Time as Microgenre](pdf/Rehak-MigrationFormsBullet-2007.pdf)" (**Film Criticism**  32: 1 (Fall 2007): 26-48)
 
-Robert A. Gonsalves, "[Muybridge Derby: Bringing Animal Locomotion Photographs to Life with AI](https://towardsdatascience.com/muybridge-derby-bringing-animal-locomotion-photographs-to-life-with-ai-b1918e6622ec)" (**Medium**, 25 July 2023) 
+Robert A. Gonsalves, "[Muybridge Derby: Bringing Animal Locomotion Photographs to Life with AI](https://towardsdatascience.com/muybridge-derby-bringing-animal-locomotion-photographs-to-life-with-ai-b1918e6622ec)" (**Medium**, 25 July 2023)
 
-Screenings: excerpts from **Eadweard Muybridge, Zoopraxographer**
+Screenings: excerpts from **Eadweard Muybridge, Zoopraxographer**
 
-***
+----------
 
-*Week 3*
+_Week 3_
 
 **Lotte Reiniger**
 
 ::: {.column-margin}
-![](img/achmed-poster.jpg){width="100%"}
+
+![](img/achmed-poster.jpg){.lightbox size=200}
+
 :::
 
 2025-01-31_Fri
 
-Cavalier, "[1925-1926 Germany](pdf/cavalier-reiniger.pdf)" in **World History of Animation**
+Cavalier, "[1925-1926 Germany](pdf/cavalier-reiniger.pdf)" in  **World History of Animation**
 
-Moritz, "[Some Critical Perspectives on Lotte Reiniger](pdf/moritz-reiniger-ch2.pdf)" (in Furniss, **Animation: Art and History**, ch. 2)  
+Moritz, "[Some Critical Perspectives on Lotte Reiniger](https://ebookcentral.proquest.com/lib/emerson/reader.action?docID=1977963&ppg=22 "pdf/moritz-reiniger-ch2.pdf)" (in Furniss,  **Animation: Art and History**, ch. 2)
 
-Justin Joffe, "[How Swedish Band Dungen Scored the Oldest Surviving Animated Film](https://observer.com/2017/03/dungen-band-haxan-interview/)" (**Observer**, 24 March 2017)
+Justin Joffe, "[How Swedish Band Dungen Scored the Oldest Surviving Animated Film](https://observer.com/2017/03/dungen-band-haxan-interview)" (_Observer_, 24 March 2017)
 
-[**Dungen presents 'The Adventures of Prince Achmed'**](https://sarahannecooper.com/Dungen-The-Adventures-of-Prince-Achmed) (Getty Museum, 21 March 2017)
+[Dungen presents  _The Adventures of Prince Achmed_](https://sarahannecooper.com/Dungen-The-Adventures-of-Prince-Achmed)  (Getty Museum, 21 March 2017)
 
-[Milestone Film press release for *The Adventures of Prince Achmed*](pdf/Lotte-Reiniger-Intro.pdf)
+[Milestone Film press release for  _The Adventures of Prince Achmed_](https://canvas.emerson.edu/courses/2079757/files/173277845?wrap=1 "Lotte-Reiniger-Intro.pdf)
 
-Dungen, [*Häxan*](https://dungen.bandcamp.com/album/h-xan-2) (soundtrack)
+Dungen,  [_Häxan_](https://dungen.bandcamp.com/album/h-xan-2)  (soundtrack)
 
-Screening: **The Adventures of Prince Achmed** (in full)
+Screening: **The Adventures of Prince Achmed** (in full)
 
 [**Brief Histories: North America I**](pdf/animation-brief-histories.pdf)
 
-***
+----------
 
-*Week 4*
+_Week 4_
 
 **Visual Music: Walter Ruttmann and Oskar Fischinger**
 
 2025-02-07_Fri
 
-Cavalier, **World History of Animation**
+Cavalier, **World History of Animation**
 
-[**Center for Visual Music**](http://www.centerforvisualmusic.org/)
+[Center for Visual Music](http://www.centerforvisualmusic.org/)
 
-Paul Friedlander, "[**What is Visual Music?**](https://paulfriedlander.com/text/visualmusic.html)"
+Paul Friedlander, "[What is Visual Music?](https://paulfriedlander.com/text/visualmusic.html)"
 
 [**Brief Histories: North America 2**](pdf/animation-brief-histories.pdf)
 
-***
+----------
 
-*Week 5*
+_Week 5_
 
 **Silly Symphonies**
 
 2024-02-14_Fri
 
-Cavalier, "1928-1957: Film Animation: The Golden Age of Cartoons" (USA sections, especially "1941 USA: Disney: **Fantasia")** in **World History of Animation**
+Cavalier, "1928-1957: Film Animation: The Golden Age of Cartoons" (USA sections, especially "1941 USA: Disney:  **Fantasia")** in  **World History of Animation**
 
-Charles Granata, “[Disney, Stokowski, and the Genius of **Fantasia**](pdf/Cartoon_Music_Book_----_(Disney,_Stokowski,_and_the_Genuis_of_Fantasia).pdf)”
+Charles Granata, “[Disney, Stokowski, and the Genius of  **Fantasia**](pdf/Disney,_Stokowski,_and_the_Genuis_of_Fantasia).pdf)”
 
-Culhane/Walt Disney Productions, "[The Making of **Fantasia**](pdf/fantasia.pdf)"
+Culhane/Walt Disney Productions, "[The Making of  **Fantasia**](pdf/"fantasia.pdf)"
 
-Edward H. Plumb, “[The Future of Fantasound](https://archive.org/details/journalofsociety39socirich/page/16/mode/2up?view=theater)” (1942)
+Plumb, “[The Future of Fantasound](https://archive.org/details/journalofsociety39socirich/page/16/mode/2up?view=theater)” (1942)
 
-Watch: Disney, [**Fantasia**](https://libcat.emerson.edu/Record/e947123) (1940)
+Watch: Disney, [**Fantasia**](https://libcat.emerson.edu/Record/e947123)  (1940)
+
+See also:
+
+"[Surviving Disney: The Story of Oskar Fischinger and 'Fantasia](https://animationobsessive.substack.com/p/surviving-disney)'" ([**Animation Obsessive**](https://animationobsessive.substack.com/), 4 April 2024).
+
+Adrian Searle, "[Oskar Fischinger: the animation wizard who angered Walt Disney and the Nazis](https://www.theguardian.com/artanddesign/2013/jan/09/oskar-fischinger-animation-disney-nazis)" (**Guardian**, 9 January 2013).
+
+Moritz, "[Fischinger at Disney, or Okar in the Mousetrap](https://www.michaelspornanimation.com/splog/?p=2409)" (**MILLIMETER**  Magazine, 1977)
 
 [**Brief Histories: Western Europe I**](pdf/animation-brief-histories.pdf)
 
-***
+----------
 
-*Week 6*
+_Week 6_
 
-**Cartoon Music**
+CLASS CANCELLATION (instructor illness)
 
 2025-02-21_Fri
 
-Goldmark and Yuval, **The Cartoon Music Book**:
+----------
 
-Strauss, “[**Tunes for Toons: A Cartoon Music Primer**](pdf/Cartoon_Music_Book_----_(Tunes_for_Toons_A_Cartoon_Music_Primer).pdf)”
+_Week 7_
 
-Barrier, “[**An Interview with Carl Stalling**](pdf/Cartoon_Music_Book_----_(An_Interview_with_Carl_Stalling).pdf)”
-
-Friedwald, “[**Sublime Perversity: The Music of Carl Stalling**](pdf/Cartoon_Music_Book_----_(Sublime_Perversity_The_Music_of_Carl_Stalling).pdf)”
-
-Chusid, “[**Raymond Scott: Accidental Music for Animated Mayhem**](pdf/Cartoon_Music_Book_----_(Raymond_Scott_Accidental_Music_for_Animated_Mayhem).pdfS)”
-
-Brophy, “[**An Interview with John Zorn**](pdf/Cartoon_Music_Book_----_(An_Interview_with_John_Zorn).pdf)”
-
-Screening: **Deconstructing Dad: The Music, Machines, and Mystery of Raymond Scott**
-
-[**Brief Histories: Western Europe II**](pdf/animation-brief-histories.pdf")
-
-***
-
-*Week 7*
-
-**Experimental Animation**
+**Cartoon Music**
 
 2024-02-28_Fri
 
-Cavalier, **World History of Animation**
+Goldmark and Yuval, **The Cartoon Music Book**:
 
-Screening: selected films by Norman McLaren
+Strauss, “![](https://prod.ally.ac/static/ally-icon-indicator-low-circle.5436e07e5830da539e80c55225eb37c9.svg)[Tunes for Toons: A Cartoon Music Primer](pdf/Cartoon_Music_Book_----_(Tunes_for_Toons_A_Cartoon_Music_Primer).pdf)”
 
-[**Brief Histories: Russia & Eastern Europe I**](https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1 "animation-brief-histories.pdf")
+Barrier, “![](https://prod.ally.ac/static/ally-icon-indicator-low-circle.5436e07e5830da539e80c55225eb37c9.svg)[An Interview with Carl Stalling](pdf/Cartoon_Music_Book_----_(An_Interview_with_Carl_Stalling).pdf)”
+
+Friedwald, “![](https://prod.ally.ac/static/ally-icon-indicator-low-circle.5436e07e5830da539e80c55225eb37c9.svg)[Sublime Perversity: The Music of Carl Stalling](pdf/Cartoon_Music_Book_----_(Sublime_Perversity_The_Music_of_Carl_Stalling).pdf)”
+
+Chusid, “![](https://prod.ally.ac/static/ally-icon-indicator-low-circle.5436e07e5830da539e80c55225eb37c9.svg)[Raymond Scott: Accidental Music for Animated Mayhem](pdf/Cartoon_Music_Book_----_(Raymond_Scott_Accidental_Music_for_Animated_Mayhem).pdf)”
+
+Brophy, “![](https://prod.ally.ac/static/ally-icon-indicator-low-circle.5436e07e5830da539e80c55225eb37c9.svg)[An Interview with John Zorn](pdf/Cartoon_Music_Book_----_(An_Interview_with_John_Zorn).pdf)”
+
+Screening: **Deconstructing Dad: The Music, Machines, and Mystery of Raymond Scott**
+
+[**Brief Histories: Western Europe II**](pdf/nimation-brief-histories.pdf)
 
 **DEADLINE: Midterm**
 
-***
+----------
 
-*Week 8*
+_Week 8_
 
-**Svankmajer & the Brothers Quay**
+**Psychedelia**
 
 2025-05-07_Fri
 
-Cavalier, **World History of Animation**
+Bob Neaverson, "[Sergeant Pepper Goes to the Movies:  **Yellow Submarine**](pdf/bob-neaverson-yellow-submarine.pdf)" (in **The Beatles *Movies)**
 
-Screenings: **The Cabinet of Jan Svankmajer**; **Street of Crocodiles**
+Marie Beardmore, "[The Beatles'  **Yellow Submarine**](pdf/john-coates-yellow-submarine-ch8.pdf)" (in [**John Coates: The Man Who Built 'The Snowman'**](https://ebookcentral.proquest.com/lib/emerson/reader.action?docID=1977964&ppg=1)
 
-[**Brief Histories: Russia and Eastern Europe II**](https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1 "animation-brief-histories.pdf")
+Make sure to watch:  [**Yellow Submarine**](https://libcat.emerson.edu/Record/e1327056)
 
-***
+[**Brief Histories: Russia & Eastern Europe I**](pfd/animation-brief-histories.pdf)
+
+----------
 
 **SPRING BREAK**
 
-***
+----------
 
-*Week 9*
+_Week 9_
 
-**Studio Ghibli**
+**Svankmajer & the Brothers Quay**
 
 2025-03-21_Fri
 
-**Kingdom of Dreams and Madness**
+Cavalier, **World History of Animation**, "Jan Svankmajer" (252-53); "Brothers Quay:  **Street of Crocodiles**" (268-69)
 
-Films: **Pom Poko**; **The Tale of Princess Kaguya**
+Please also watch Christopher Nolan's short documentary (8:00) before class:
 
-[**Brief Histories: Asia: Japan**](https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1 "animation-brief-histories.pdf")
+Screenings: **The Cabinet of Jan Svankmajer**; **Street of Crocodiles**
 
-***
+[Eva Szasz](https://www.nfb.ca/directors/eva-szasz)  (National Film Board of Canada)
 
-*Week 10*
+[**Brief Histories: Russia and Eastern Europe II**](pdf/animation-brief-histories.pdf)
 
-**Animation in the Digital Age: CGI and 3D Animation**
+----------
+
+_Week 10_
+
+**Eastern Europe: Russia**
 
 2025-03-28_Fri
 
-Tillis, “The Art of Puppetry in the Age of Media Production”
+Jeremy Rosen, "[Popular (World) Realism? On Moritz Baßler: Populärer Realismus](https://platonicmonkeywrench.wordpress.com/2023/03/07/popular-world-realism-on-moritz-basler-popularer-realismus)"
 
-Screenings: Pixar/Dreamworks films
+Gilles Lipovetsky and Jean Serroy, "[Kitsch in the Hypermodern Era](https://canvas.emerson.edu/courses/2079757/files/175346653?wrap=1 "lipovetsky-serroy-kitsch.pdf)" (in Max Ryynänen and Paco Barragán, eds.,  **The Changing Meaning of Kitsch: From Rejection to Acceptance** (London: Palgrave Macmillan, 2023): 65-86.
 
-[**Brief Histories: Asia: China**](https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1 "animation-brief-histories.pdf")
+**[Visions in Uzbekistan](https://animationobsessive.substack.com/p/visions-in-uzbekistan)**  (**Animation Obsessive**, 3 April 2025)
 
-***
+[**Brief Histories: Asia: Japan**](pdf/animation-brief-histories.pdf)
 
-*Week 11*
+----------
 
-**UK Animation: Nick Park**
+_Week 11_
+
+**Studio Ghibli**
 
 2025-04-04_Fri
 
-**Coraline**
+**Kingdom of Dreams and Madness**
 
-[**Brief Histories: Rest of World I**](https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1 "animation-brief-histories.pdf")
+Tumblr:
 
-***
+[studio ghibli gifs](https://ghibligif.tumblr.com/)
 
-*Week 12*
+[Studio Ghibli gifs](https://www.tumblr.com/studioghibligifs)
 
-**Transnational Animation in the Age of Streaming**
+[Another one](https://ghibli-gifs.tumblr.com/)
+
+[Ghiblimania](https://canvas.emerson.edu/courses/2079757/files/175607515?wrap=1 "ghiblimania-1.pptx")
+
+(Powerpoint)
+
+Films: **Pom Poko**; **The Tale of Princess Kaguya**
+
+[**Brief Histories: Asia: China**](pdf/animation-brief-histories.pdf)
+
+----------
+
+_Week 12_
 
 2025-04-11_Fri
 
-Ahn, “Samurai Champloo: Transnational Viewing”
+CLASS CANCELLATION (instructor illness)
 
-**Samurai Champloo**; **Afro-Samurai**; **Samurai Jack**
+----------
 
-[**Brief Histories: Rest of World II**](https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1 "animation-brief-histories.pdf")
+_Week 13_
 
-***
-
-*Week 13*
-
-**Everything Everywhere All At Once: The Animation Multiverse**
+**Animation in the Digital Age: CGI and 3D Animation**
 
 2025-04-18_Fri
 
-Screening: **Spider-man: Across the Spider-Verse**
+Tillis, “[The Art of Puppetry in the Age of Media Production](https://canvas.emerson.edu/courses/2079757/files/175787476?wrap=1)”
 
-***
+Screenings:
 
-*Week 14*
+**Holy Motors**  (Leos Carax, 2012)
 
-**Animation and AI**
+Pixar/Dreamworks films
+
+----------
+
+_Week 14_
+
+**Transnational Animation in the Age of Streaming**
 
 2025-04-25_Fri
 
-Reading TBA
+Ahn, “[Samurai Champloo: Transnational Viewing](pdf/jiwon-ahn-samurai-champloo.pdf)” (in Ethan Thompson and Jason Mittell, eds.,  **How To Watch Television**  (New York: New York University Press, 2013): 364-72)
 
-Demonstration of AI movie animation
+Agnoli and Denison, "[Introducing Transnational Animation](https://oldjournal.animationstudies.org/francis-m-agnoli-rayna-denison-introducing-transnational-animation-a-special-issue-of-animation-studies/)" (special issue of  **Animation Studies**, 24 July 2019)
+
+**Samurai Champloo**; **Afro-Samurai**; **Samurai Jack**
 
 **DEADLINE: Research Paper/Project**
 
-***
+----------
 
-*Week 15*
+_Week 15_
 
-2025-05-01_Fri
+**Everything Everywhere All At Once: The Animation Multiverse**
 
-Research Papers/Projects: Exhibition and Discussion
+2025-05-02_Fri
 
-2024-05-01 Fri **Last day of classes**
+Screening: **Spider-man: Across the Spider-Verse**
+
+2024-05-02 Fri  **Last day of classes**
 
 
 ### **Policies**
-
-
 
 ##### **Academic Honesty**
 

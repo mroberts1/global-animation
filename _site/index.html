@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -31,17 +31,23 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href=".//img/cropped-cropped-flourish-1-270x270.gif" rel="icon" type="image/gif">
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-126e8947d543d5292619b09ad09d71ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-fd030abed7988c484589c4b1fb192713.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-07341f22e92a3e5822394c78ab2946a2.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ccbff88fb3275415fa711f6db7e75c3.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-07341f22e92a3e5822394c78ab2946a2.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa5a1fe1172812ec99f4be606a9ab6fb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-366d05f77c6401784e4a74d40cf3ded3.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-6641f5b7ec82db2f84063de81918b287.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-1c814a527561c50a203c5f9e72de6a63.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-6641f5b7ec82db2f84063de81918b287.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,7 +81,169 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="custom.scss">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -134,6 +302,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Animation</h1>
@@ -154,8 +323,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- [![Florent Lebrun, *The Lost Tower* (2025)](img/lost-tower.gif){width="100%"}](https://www.artstation.com/artwork/XJOqQa) -->
-<p><img src="img/space-dogs-animatediff.gif" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.artstation.com/artwork/XJOqQa"><img src="img/lost-tower.gif" class="img-fluid figure-img" style="width:100.0%"></a></p>
+<figcaption>Florent Lebrun, <em>The Lost Tower</em> (2025)</figcaption>
+</figure>
+</div>
+<!-- ![](img/space-dogs-animatediff.gif)   -->
 
 <div class="no-row-height column-margin column-container"><div class="">
 <p>VM402-07-SP25<br>
@@ -169,173 +343,202 @@ Ansin Building 205<br>
 <a href="http://mroberts.emerson.build/">Dr.&nbsp;Martin Roberts</a><br>
 </p>
 </div></div><section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<h2 class="anchored" data-anchor-id="overview"><strong>Overview</strong></h2>
 <p>Animation has historically been seen as a sub-category of cinema primarily intended for children; yet it has been suggested that since the arrival of computer-graphic imagery (CGI) since the 1990s cinema itself has increasingly become a subset of animation with photorealistic content. This course reconsiders the place of animation in the history of motion pictures and seeks to recenter it as a fundamental component of cinema itself.</p>
 <p>Beginning with optical toys such as the zoetrope and the time-motion experiments of Marey and Muybridge, it then considers the origins of animated cinema in the 1920s and 1930s, from the early cartoons of Disney and Fleischer to the groundbreaking silhouette animation of Lotte Reiniger in Germany.</p>
-<p>Particular attention is given to the role of music in the historical development of animation, from the visual music of Oscar Fischinger to Disney’s&nbsp;<strong>Fantasia</strong>&nbsp;and Raymond Scott’s soundtracks to the Warner Bros.&nbsp;Merrie Melodies cartoons of the 1940-1950s.</p>
-<p>The course then turns to the wave of experimental animation in Russia, Czechoslovakia (Švankmajer), and Poland from the 1950-1980s, and its later impact on contemporary avant-garde animators such as the Quay Brothers. Parallel to this, it also considers the rise of anime in Japan, from the first anime franchise, Tezuka Osama’s&nbsp;<strong>Astro Boy</strong>, to Studio Ghibli and the emergence of global fandom for Japanese anime since the 1970s.</p>
+<p>Particular attention is given to the role of music in the historical development of animation, from the visual music of Oscar Fischinger to Disney’s <em>Fantasia</em> and Raymond Scott’s soundtracks to the Warner Bros.&nbsp;Merrie Melodies cartoons of the 1940-1950s.</p>
+<p>The course then turns to the wave of experimental animation in Russia, Czechoslovakia (Švankmajer), and Poland from the 1950-1980s, and its later impact on contemporary avant-garde animators such as the Quay Brothers. Parallel to this, it also considers the rise of anime in Japan, from the first anime franchise, Tezuka Osama’s <em>Astro Boy</em>, to Studio Ghibli and the emergence of global fandom for Japanese anime since the 1970s.</p>
 <p>From the 1990s, the course considers the transformation of animation by digital technologies, including the shift from 2D to 3D animation in the movies of Pixar and Dreamworks; the stop-motion claymation of British animator Nick Park; and the digital puppetry of motion capture and green-screening.</p>
 <p>Returning to the present, it considers the ongoing transformation of the animation industry by today’s algorithmic tools (AI) and the new wave of generative animation.</p>
 <p>Through this global overview of the history of animation, the course seeks to demonstrate that far from being marginal to the history of cinema, animation has in fact been one of its fundamental principles all along.</p>
+<hr>
 </section>
 <section id="outcomes" class="level2">
-<h2 class="anchored" data-anchor-id="outcomes">Outcomes</h2>
+<h2 class="anchored" data-anchor-id="outcomes"><strong>Outcomes</strong></h2>
 <p>By the end of the course, students will:</p>
 <ul>
-<li><p>have acquired a detailed understanding of the global history of animation as a media form;</p></li>
-<li><p>understand differences between drawn 2D (cel) animation and digital animation, as well as the different aesthetics associated with these;</p></li>
-<li><p>be able to apply critical thinking to contemporary developments in animation industries using relevant analytical concepts.</p></li>
+<li>have acquired a detailed understanding of the global history of animation as a media form;</li>
+<li>understand differences between drawn 2D (cel) animation and digital animation, as well as the different aesthetics associated with these;</li>
+<li>be able to apply critical thinking to contemporary developments in animation industries using relevant analytical concepts.</li>
 </ul>
+<hr>
 </section>
 <section id="course-texts" class="level2">
-<h2 class="anchored" data-anchor-id="course-texts">Course Texts</h2>
-<p><strong>Required</strong><br>
-Stephen Cavalier,&nbsp;<strong>The World History of Animation</strong>. Foreword by Sylvain Chomet (Berkeley: University of California Press, 2011).</p>
+<h2 class="anchored" data-anchor-id="course-texts"><strong>Course Texts</strong></h2>
+<p><em>Required</em><br>
+Stephen Cavalier, <strong>The World History of Animation</strong>. Foreword by Sylvain Chomet (Berkeley: University of California Press, 2011).</p>
 <p>Please order this text as soon as possible.</p>
-<p><strong>Recommended</strong><br>
+<p><em>Recommended</em><br>
 Some chapters from the texts below will be made available as PDFs; you are encouraged to purchase at least several of texts that are of interest and read more of them.</p>
+<p>Marie Beardmore, <a href="https://ebookcentral.proquest.com/lib/emerson/reader.action?docID=1977964&amp;ppg=1"><strong>John Coates: The Man Who Built ‘The Snowman’</strong></a> Epilogue by John Coates, Epilogue by Raymond Briggs (New Barnet, Hertfordshire: John Libbey Publishing Inc., 2011).</p>
 <p>John Culhane / Walt Disney Productions, <a href="https://research.ebsco.com/c/vvyzha/search/details/bcdhh3er5f?limiters=FT1%3AY&amp;q=john%20culhane%20fantasia"><strong>Walt Disney’s ‘Fantasia’</strong></a> (New York: H.N. Abrams, 1983).</p>
-<p>[E] Maureen Furniss, ed.,&nbsp;<a href="https://ebookcentral.proquest.com/lib/emerson/detail.action?docID=1977963"><strong>Animation: Art and Industry</strong></a>&nbsp;(New Barnet, Hertfordshire, UK: John Libbey Publishing Ltd., 2012).</p>
-<p>[E] Daniel Goldmark and Yuval Taylor, eds.,&nbsp;<a href="https://ebookcentral.proquest.com/lib/emerson/detail.action?docID=769839"><strong>The Cartoon Music Book</strong></a>&nbsp;(Chicago: A Cappella Books, 2020).</p>
-<p>Lenny Lipton,&nbsp;<strong>The Cinema in Flux: The Evolution of Motion Picture Technology from the Magic Lantern to the Digital Era</strong>&nbsp;(New York: Springer, 2021).</p>
-<p><strong>Resources</strong></p>
-<p><a href="https://www.thecrankiefactory.com/"><strong>The Crankie Factory</strong></a></p>
-<p><a href="https://creativealliance.org/event/2025-baltimore-crankie-festival/"><strong>Baltimore Crankie Festival 2025</strong></a>5</p>
-<p><a href="http://www.centerforvisualmusic.org/"><strong>Center for Visual Music</strong></a></p>
+<p>Nichola Dobson, Annabelle Honess Roe, Amy Ratelle, Caroline Ruddell, eds., <a href="https://search.worldcat.org/title/1012343033"><strong>The Animation Studies Reader</strong></a> (New York: Bloomsbury Academic, 2019).</p>
+<p>[E] Maureen Furniss, ed., <a href="https://ebookcentral.proquest.com/lib/emerson/detail.action?docID=1977963"><strong>Animation: Art and Industry</strong></a> (New Barnet, Hertfordshire, UK: John Libbey Publishing Ltd., 2012).</p>
+<p>[E] Daniel Goldmark and Yuval Taylor, eds., <a href="https://ebookcentral.proquest.com/lib/emerson/detail.action?docID=769839"><strong>The Cartoon Music Book</strong></a> (Chicago: A Cappella Books, 2020).</p>
+<p>Lenny Lipton, <strong>The Cinema in Flux: The Evolution of Motion Picture Technology from the Magic Lantern to the Digital Era</strong> (New York: Springer, 2021).</p>
+<p><strong>Research Resources</strong></p>
+<p><a href="https://oldjournal.animationstudies.org/"><strong>Animation Studies</strong></a> (peer-reviewed academic journal)</p>
+<p><a href="https://www.mechademia.net/"><strong>Mechademia</strong></a> (older academic conference and theory-oriented academic journal on anime and manga cultures)</p>
+<p><a href="https://www.mechademia.net/journal/second-arc"><strong>Mechademia Second Arc</strong></a> (current iteration of <strong>Mechademia</strong>)</p>
+<p><a href="https://greatwomenanimators.com/about">Great Women Animators</a></p>
+<p><a href="https://www.youtube.com/playlist?list=PLe8Ab_f774yJ1ZwkPPIGDSdwFf3Jt-lfq">USSR Animation</a> (YouTube playlist curated by Lev Manovich)</p>
+<p><a href="https://www.skwigly.co.uk/">Skywigly</a> (online animation magazine)</p>
+<p><a href="https://www.skwigly.co.uk/author/stephen-cavalier">100 Greatest Animated Shorts</a> (by Stephen Cavalier, on Skywigly)</p>
+<p><a href="https://www.thecrankiefactory.com/">The Crankie Factory</a></p>
+<p><a href="https://creativealliance.org/event/2025-baltimore-crankie-festival">Baltimore Crankie Festival 202</a>5</p>
+<p><a href="http://www.centerforvisualmusic.org/">Center for Visual Music</a></p>
+<hr>
 </section>
 <section id="assignments-evaluation" class="level2">
-<h2 class="anchored" data-anchor-id="assignments-evaluation">Assignments &amp; Evaluation</h2>
-<p><strong>Brief Histories (20%)</strong>&nbsp;In-class presentations (2) on animation in a specific national context, related to North America, Western/Eastern Europe, Asia, or Central/South America.</p>
+<h2 class="anchored" data-anchor-id="assignments-evaluation"><strong>Assignments &amp; Evaluation</strong></h2>
+<p><strong>Brief Histories (20%)</strong><br>
+In-class presentations (2) on animation in a specific national context, related to North America, Western/Eastern Europe, Asia, or Central/South America.</p>
 <p><strong>National Case Study (20%)</strong><br>
 Case study of an aesthetic movement or style, 1,000 words (4 pages, double-spaced). Due mid-semester.</p>
-<p><strong>Midterm paper (20%)</strong>&nbsp;Take-home. 1,000-word essay (4 pages double-spaced) on a selected topic related to global animation history (topics will be provided).</p>
+<p><strong>Midterm paper (20%)</strong><br>
+Take-home. 1,000-word essay (4 pages double-spaced) on a selected topic related to global animation history (topics will be provided).</p>
 <p><strong>Research Paper/Project (25%)</strong><br>
 Research on an approved topic relevant to the course. Individual or group. Further details will be provided after Spring Break. 1,250-1,500 words.</p>
 <p><strong>Engagement (15%)</strong><br>
 Includes attendance, punctuality, preparation, participation in class and/or online discussion,individual conferences.</p>
+<hr>
 </section>
 <section id="schedule-of-classes" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="schedule-of-classes">Schedule of Classes</h2>
+<h2 class="anchored" data-anchor-id="schedule-of-classes"><strong>Schedule of Classes</strong></h2>
 <p><em>Week 1</em></p>
 <p><strong>Introduction: Mickey-Mousing</strong></p>
 <p>2025-01-17_Fri</p>
-<p>Early Disney cartoons:&nbsp;<strong>Steamboat Willie</strong>&nbsp;(1928);&nbsp;<strong>The Skeleton Dance</strong> (1929);&nbsp;<strong>The Art of Mickey Mousing</strong>&nbsp;(YouTube)</p>
+<p>Early Disney cartoons: <strong>Steamboat Willie</strong> (1928); <strong>The Skeleton Dance</strong> (1929); <strong>The Art of Mickey Mousing</strong> (YouTube)</p>
 <p>Introduction to pre-cinematic animation</p>
 <hr>
 <p><em>Week 2</em></p>
 <p><strong>Pre-history of animation</strong></p>
 <p>2025-01-24_Fri</p>
-<p>Cavalier,&nbsp;<strong>World History of Animation</strong>: “<a href="pdf/global-animation-ch2.pdf&quot;">Pre-1900: The Origins of Animation</a>”</p>
-<p>Lipton, <strong>The Cinema in Flux</strong>: “<a href="pdf/lipton-zoetrope-praxinoscope.pdf">The Zoëtrope and the Praxinoscope</a>” (ch.&nbsp;6); “<a href="pdf/lipton-muybridge.pdf">Muybridge and Anschütz</a>” (ch.&nbsp;10)</p>
+<p>Cavalier, <strong>World History of Animation</strong>: “<a href="pdf/global-animation-ch2.pdf">Pre-1900: The Origins of Animation</a>”</p>
+<p>Lipton, <strong>The Cinema in Flux</strong>: “<a href="pdf/lipton-zoetrope-praxinoscope.pdf">The Zoëtrope and the Praxinoscope</a>” (ch.&nbsp;6);&nbsp;“<a href="pdf/lipton-muybridge.pdf">Muybridge and Anschütz</a>” (ch.&nbsp;10)</p>
 <p>Rehak, “<a href="pdf/Rehak-MigrationFormsBullet-2007.pdf">The Migration of Forms: Bullet Time as Microgenre</a>” (<strong>Film Criticism</strong> 32: 1 (Fall 2007): 26-48)</p>
-<p>Robert A. Gonsalves, “<a href="https://towardsdatascience.com/muybridge-derby-bringing-animal-locomotion-photographs-to-life-with-ai-b1918e6622ec">Muybridge Derby: Bringing Animal Locomotion Photographs to Life with AI</a>” (<strong>Medium</strong>, 25 July 2023)&nbsp;</p>
-<p>Screenings: excerpts from&nbsp;<strong>Eadweard Muybridge, Zoopraxographer</strong></p>
+<p>Robert A. Gonsalves, “<a href="https://towardsdatascience.com/muybridge-derby-bringing-animal-locomotion-photographs-to-life-with-ai-b1918e6622ec">Muybridge Derby: Bringing Animal Locomotion Photographs to Life with AI</a>” (<strong>Medium</strong>, 25 July 2023)</p>
+<p>Screenings: excerpts from <strong>Eadweard Muybridge, Zoopraxographer</strong></p>
 <hr>
 <p><em>Week 3</em></p>
 <p><strong>Lotte Reiniger</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="img/achmed-poster.jpg" class="img-fluid" style="width:100.0%"></p>
+<p><a href="img/achmed-poster.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img/achmed-poster.jpg" class="img-fluid" size="200"></a></p>
 </div></div><p>2025-01-31_Fri</p>
 <p>Cavalier, “<a href="pdf/cavalier-reiniger.pdf">1925-1926 Germany</a>” in <strong>World History of Animation</strong></p>
-<p>Moritz, “<a href="pdf/moritz-reiniger-ch2.pdf">Some Critical Perspectives on Lotte Reiniger</a>” (in Furniss, <strong>Animation: Art and History</strong>, ch.&nbsp;2)</p>
-<p>Justin Joffe, “<a href="https://observer.com/2017/03/dungen-band-haxan-interview/">How Swedish Band Dungen Scored the Oldest Surviving Animated Film</a>” (<strong>Observer</strong>, 24 March 2017)</p>
-<p><a href="https://sarahannecooper.com/Dungen-The-Adventures-of-Prince-Achmed"><strong>Dungen presents ‘The Adventures of Prince Achmed’</strong></a> (Getty Museum, 21 March 2017)</p>
-<p><a href="pdf/Lotte-Reiniger-Intro.pdf">Milestone Film press release for <em>The Adventures of Prince Achmed</em></a></p>
+<p>Moritz, “[Some Critical Perspectives on Lotte Reiniger](https://ebookcentral.proquest.com/lib/emerson/reader.action?docID=1977963&amp;ppg=22”pdf/moritz-reiniger-ch2.pdf)” (in Furniss, <strong>Animation: Art and History</strong>, ch.&nbsp;2)</p>
+<p>Justin Joffe, “<a href="https://observer.com/2017/03/dungen-band-haxan-interview">How Swedish Band Dungen Scored the Oldest Surviving Animated Film</a>” (<em>Observer</em>, 24 March 2017)</p>
+<p><a href="https://sarahannecooper.com/Dungen-The-Adventures-of-Prince-Achmed">Dungen presents <em>The Adventures of Prince Achmed</em></a> (Getty Museum, 21 March 2017)</p>
+<p>[Milestone Film press release for <em>The Adventures of Prince Achmed</em>](https://canvas.emerson.edu/courses/2079757/files/173277845?wrap=1 “Lotte-Reiniger-Intro.pdf)</p>
 <p>Dungen, <a href="https://dungen.bandcamp.com/album/h-xan-2"><em>Häxan</em></a> (soundtrack)</p>
-<p>Screening:&nbsp;<strong>The Adventures of Prince Achmed</strong>&nbsp;(in full)</p>
+<p>Screening: <strong>The Adventures of Prince Achmed</strong> (in full)</p>
 <p><a href="pdf/animation-brief-histories.pdf"><strong>Brief Histories: North America I</strong></a></p>
 <hr>
 <p><em>Week 4</em></p>
 <p><strong>Visual Music: Walter Ruttmann and Oskar Fischinger</strong></p>
 <p>2025-02-07_Fri</p>
-<p>Cavalier,&nbsp;<strong>World History of Animation</strong></p>
-<p><a href="http://www.centerforvisualmusic.org/"><strong>Center for Visual Music</strong></a></p>
-<p>Paul Friedlander, “<a href="https://paulfriedlander.com/text/visualmusic.html"><strong>What is Visual Music?</strong></a>”</p>
+<p>Cavalier, <strong>World History of Animation</strong></p>
+<p><a href="http://www.centerforvisualmusic.org/">Center for Visual Music</a></p>
+<p>Paul Friedlander, “<a href="https://paulfriedlander.com/text/visualmusic.html">What is Visual Music?</a>”</p>
 <p><a href="pdf/animation-brief-histories.pdf"><strong>Brief Histories: North America 2</strong></a></p>
 <hr>
 <p><em>Week 5</em></p>
 <p><strong>Silly Symphonies</strong></p>
 <p>2024-02-14_Fri</p>
 <p>Cavalier, “1928-1957: Film Animation: The Golden Age of Cartoons” (USA sections, especially “1941 USA: Disney: <strong>Fantasia”)</strong> in <strong>World History of Animation</strong></p>
-<p>Charles Granata, “<a href="pdf/Cartoon_Music_Book_----_(Disney,_Stokowski,_and_the_Genuis_of_Fantasia).pdf">Disney, Stokowski, and the Genius of <strong>Fantasia</strong></a>”</p>
-<p>Culhane/Walt Disney Productions, “<a href="pdf/fantasia.pdf">The Making of <strong>Fantasia</strong></a>”</p>
-<p>Edward H. Plumb, “<a href="https://archive.org/details/journalofsociety39socirich/page/16/mode/2up?view=theater">The Future of Fantasound</a>” (1942)</p>
+<p>Charles Granata, “<a href="pdf/Disney,_Stokowski,_and_the_Genuis_of_Fantasia">Disney, Stokowski, and the Genius of <strong>Fantasia</strong></a>.pdf)”</p>
+<p>Culhane/Walt Disney Productions, “<a href="pdf/&quot;fantasia.pdf">The Making of <strong>Fantasia</strong></a>”</p>
+<p>Plumb, “<a href="https://archive.org/details/journalofsociety39socirich/page/16/mode/2up?view=theater">The Future of Fantasound</a>” (1942)</p>
 <p>Watch: Disney, <a href="https://libcat.emerson.edu/Record/e947123"><strong>Fantasia</strong></a> (1940)</p>
+<p>See also:</p>
+<p>“<a href="https://animationobsessive.substack.com/p/surviving-disney">Surviving Disney: The Story of Oskar Fischinger and ’Fantasia</a>’” (<a href="https://animationobsessive.substack.com/"><strong>Animation Obsessive</strong></a>, 4 April 2024).</p>
+<p>Adrian Searle, “<a href="https://www.theguardian.com/artanddesign/2013/jan/09/oskar-fischinger-animation-disney-nazis">Oskar Fischinger: the animation wizard who angered Walt Disney and the Nazis</a>” (<strong>Guardian</strong>, 9 January 2013).</p>
+<p>Moritz, “<a href="https://www.michaelspornanimation.com/splog/?p=2409">Fischinger at Disney, or Okar in the Mousetrap</a>” (<strong>MILLIMETER</strong> Magazine, 1977)</p>
 <p><a href="pdf/animation-brief-histories.pdf"><strong>Brief Histories: Western Europe I</strong></a></p>
 <hr>
 <p><em>Week 6</em></p>
-<p><strong>Cartoon Music</strong></p>
+<p>CLASS CANCELLATION (instructor illness)</p>
 <p>2025-02-21_Fri</p>
-<p>Goldmark and Yuval,&nbsp;<strong>The Cartoon Music Book</strong>:</p>
-<p>Strauss, “<a href="pdf/Cartoon_Music_Book_----_(Tunes_for_Toons_A_Cartoon_Music_Primer).pdf"><strong>Tunes for Toons: A Cartoon Music Primer</strong></a>”</p>
-<p>Barrier, “<a href="pdf/Cartoon_Music_Book_----_(An_Interview_with_Carl_Stalling).pdf"><strong>An Interview with Carl Stalling</strong></a>”</p>
-<p>Friedwald, “<a href="pdf/Cartoon_Music_Book_----_(Sublime_Perversity_The_Music_of_Carl_Stalling).pdf"><strong>Sublime Perversity: The Music of Carl Stalling</strong></a>”</p>
-<p>Chusid, “<a href="pdf/Cartoon_Music_Book_----_(Raymond_Scott_Accidental_Music_for_Animated_Mayhem).pdfS"><strong>Raymond Scott: Accidental Music for Animated Mayhem</strong></a>”</p>
-<p>Brophy, “<a href="pdf/Cartoon_Music_Book_----_(An_Interview_with_John_Zorn).pdf"><strong>An Interview with John Zorn</strong></a>”</p>
-<p>Screening:&nbsp;<strong>Deconstructing Dad: The Music, Machines, and Mystery of Raymond Scott</strong></p>
-<p><a href="pdf/animation-brief-histories.pdf&quot;"><strong>Brief Histories: Western Europe II</strong></a></p>
 <hr>
 <p><em>Week 7</em></p>
-<p><strong>Experimental Animation</strong></p>
+<p><strong>Cartoon Music</strong></p>
 <p>2024-02-28_Fri</p>
-<p>Cavalier,&nbsp;<strong>World History of Animation</strong></p>
-<p>Screening: selected films by Norman McLaren</p>
-<p><a href="https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1" title="animation-brief-histories.pdf"><strong>Brief Histories: Russia &amp; Eastern Europe I</strong></a></p>
+<p>Goldmark and Yuval, <strong>The Cartoon Music Book</strong>:</p>
+<p>Strauss, “<img src="https://prod.ally.ac/static/ally-icon-indicator-low-circle.5436e07e5830da539e80c55225eb37c9.svg" class="img-fluid"><a href="pdf/Cartoon_Music_Book_----_(Tunes_for_Toons_A_Cartoon_Music_Primer).pdf">Tunes for Toons: A Cartoon Music Primer</a>”</p>
+<p>Barrier, “<img src="https://prod.ally.ac/static/ally-icon-indicator-low-circle.5436e07e5830da539e80c55225eb37c9.svg" class="img-fluid"><a href="pdf/Cartoon_Music_Book_----_(An_Interview_with_Carl_Stalling).pdf">An Interview with Carl Stalling</a>”</p>
+<p>Friedwald, “<img src="https://prod.ally.ac/static/ally-icon-indicator-low-circle.5436e07e5830da539e80c55225eb37c9.svg" class="img-fluid"><a href="pdf/Cartoon_Music_Book_----_(Sublime_Perversity_The_Music_of_Carl_Stalling).pdf">Sublime Perversity: The Music of Carl Stalling</a>”</p>
+<p>Chusid, “<img src="https://prod.ally.ac/static/ally-icon-indicator-low-circle.5436e07e5830da539e80c55225eb37c9.svg" class="img-fluid"><a href="pdf/Cartoon_Music_Book_----_(Raymond_Scott_Accidental_Music_for_Animated_Mayhem).pdf">Raymond Scott: Accidental Music for Animated Mayhem</a>”</p>
+<p>Brophy, “<img src="https://prod.ally.ac/static/ally-icon-indicator-low-circle.5436e07e5830da539e80c55225eb37c9.svg" class="img-fluid"><a href="pdf/Cartoon_Music_Book_----_(An_Interview_with_John_Zorn).pdf">An Interview with John Zorn</a>”</p>
+<p>Screening: <strong>Deconstructing Dad: The Music, Machines, and Mystery of Raymond Scott</strong></p>
+<p><a href="pdf/nimation-brief-histories.pdf"><strong>Brief Histories: Western Europe II</strong></a></p>
 <p><strong>DEADLINE: Midterm</strong></p>
 <hr>
 <p><em>Week 8</em></p>
-<p><strong>Svankmajer &amp; the Brothers Quay</strong></p>
+<p><strong>Psychedelia</strong></p>
 <p>2025-05-07_Fri</p>
-<p>Cavalier,&nbsp;<strong>World History of Animation</strong></p>
-<p>Screenings:&nbsp;<strong>The Cabinet of Jan Svankmajer</strong>;&nbsp;<strong>Street of Crocodiles</strong></p>
-<p><a href="https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1" title="animation-brief-histories.pdf"><strong>Brief Histories: Russia and Eastern Europe II</strong></a></p>
+<p>Bob Neaverson, “<a href="pdf/bob-neaverson-yellow-submarine.pdf">Sergeant Pepper Goes to the Movies: <strong>Yellow Submarine</strong></a>” (in **The Beatles *Movies)**</p>
+<p>Marie Beardmore, “<a href="pdf/john-coates-yellow-submarine-ch8.pdf">The Beatles’ <strong>Yellow Submarine</strong></a>” (in <a href="https://ebookcentral.proquest.com/lib/emerson/reader.action?docID=1977964&amp;ppg=1"><strong>John Coates: The Man Who Built ‘The Snowman’</strong></a></p>
+<p>Make sure to watch: <a href="https://libcat.emerson.edu/Record/e1327056"><strong>Yellow Submarine</strong></a></p>
+<p><a href="pfd/animation-brief-histories.pdf"><strong>Brief Histories: Russia &amp; Eastern Europe I</strong></a></p>
 <hr>
 <p><strong>SPRING BREAK</strong></p>
 <hr>
 <p><em>Week 9</em></p>
-<p><strong>Studio Ghibli</strong></p>
+<p><strong>Svankmajer &amp; the Brothers Quay</strong></p>
 <p>2025-03-21_Fri</p>
-<p><strong>Kingdom of Dreams and Madness</strong></p>
-<p>Films:&nbsp;<strong>Pom Poko</strong>;&nbsp;<strong>The Tale of Princess Kaguya</strong></p>
-<p><a href="https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1" title="animation-brief-histories.pdf"><strong>Brief Histories: Asia: Japan</strong></a></p>
+<p>Cavalier, <strong>World History of Animation</strong>, “Jan Svankmajer” (252-53); “Brothers Quay: <strong>Street of Crocodiles</strong>” (268-69)</p>
+<p>Please also watch Christopher Nolan’s short documentary (8:00) before class:</p>
+<p>Screenings: <strong>The Cabinet of Jan Svankmajer</strong>; <strong>Street of Crocodiles</strong></p>
+<p><a href="https://www.nfb.ca/directors/eva-szasz">Eva Szasz</a> (National Film Board of Canada)</p>
+<p><a href="pdf/animation-brief-histories.pdf"><strong>Brief Histories: Russia and Eastern Europe II</strong></a></p>
 <hr>
 <p><em>Week 10</em></p>
-<p><strong>Animation in the Digital Age: CGI and 3D Animation</strong></p>
+<p><strong>Eastern Europe: Russia</strong></p>
 <p>2025-03-28_Fri</p>
-<p>Tillis, “The Art of Puppetry in the Age of Media Production”</p>
-<p>Screenings: Pixar/Dreamworks films</p>
-<p><a href="https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1" title="animation-brief-histories.pdf"><strong>Brief Histories: Asia: China</strong></a></p>
+<p>Jeremy Rosen, “<a href="https://platonicmonkeywrench.wordpress.com/2023/03/07/popular-world-realism-on-moritz-basler-popularer-realismus">Popular (World) Realism? On Moritz Baßler: Populärer Realismus</a>”</p>
+<p>Gilles Lipovetsky and Jean Serroy, “[Kitsch in the Hypermodern Era](https://canvas.emerson.edu/courses/2079757/files/175346653?wrap=1”lipovetsky-serroy-kitsch.pdf)” (in Max Ryynänen and Paco Barragán, eds., <strong>The Changing Meaning of Kitsch: From Rejection to Acceptance</strong> (London: Palgrave Macmillan, 2023): 65-86.</p>
+<p><strong><a href="https://animationobsessive.substack.com/p/visions-in-uzbekistan">Visions in Uzbekistan</a></strong> (<strong>Animation Obsessive</strong>, 3 April 2025)</p>
+<p><a href="pdf/animation-brief-histories.pdf"><strong>Brief Histories: Asia: Japan</strong></a></p>
 <hr>
 <p><em>Week 11</em></p>
-<p><strong>UK Animation: Nick Park</strong></p>
+<p><strong>Studio Ghibli</strong></p>
 <p>2025-04-04_Fri</p>
-<p><strong>Coraline</strong></p>
-<p><a href="https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1" title="animation-brief-histories.pdf"><strong>Brief Histories: Rest of World I</strong></a></p>
+<p><strong>Kingdom of Dreams and Madness</strong></p>
+<p>Tumblr:</p>
+<p><a href="https://ghibligif.tumblr.com/">studio ghibli gifs</a></p>
+<p><a href="https://www.tumblr.com/studioghibligifs">Studio Ghibli gifs</a></p>
+<p><a href="https://ghibli-gifs.tumblr.com/">Another one</a></p>
+<p><a href="https://canvas.emerson.edu/courses/2079757/files/175607515?wrap=1" title="ghiblimania-1.pptx">Ghiblimania</a></p>
+<p>(Powerpoint)</p>
+<p>Films: <strong>Pom Poko</strong>; <strong>The Tale of Princess Kaguya</strong></p>
+<p><a href="pdf/animation-brief-histories.pdf"><strong>Brief Histories: Asia: China</strong></a></p>
 <hr>
 <p><em>Week 12</em></p>
-<p><strong>Transnational Animation in the Age of Streaming</strong></p>
 <p>2025-04-11_Fri</p>
-<p>Ahn, “Samurai Champloo: Transnational Viewing”</p>
-<p><strong>Samurai Champloo</strong>;&nbsp;<strong>Afro-Samurai</strong>;&nbsp;<strong>Samurai Jack</strong></p>
-<p><a href="https://canvas.emerson.edu/courses/2079757/files/173002680?wrap=1" title="animation-brief-histories.pdf"><strong>Brief Histories: Rest of World II</strong></a></p>
+<p>CLASS CANCELLATION (instructor illness)</p>
 <hr>
 <p><em>Week 13</em></p>
-<p><strong>Everything Everywhere All At Once: The Animation Multiverse</strong></p>
+<p><strong>Animation in the Digital Age: CGI and 3D Animation</strong></p>
 <p>2025-04-18_Fri</p>
-<p>Screening:&nbsp;<strong>Spider-man: Across the Spider-Verse</strong></p>
+<p>Tillis, “<a href="https://canvas.emerson.edu/courses/2079757/files/175787476?wrap=1">The Art of Puppetry in the Age of Media Production</a>”</p>
+<p>Screenings:</p>
+<p><strong>Holy Motors</strong> (Leos Carax, 2012)</p>
+<p>Pixar/Dreamworks films</p>
 <hr>
 <p><em>Week 14</em></p>
-<p><strong>Animation and AI</strong></p>
+<p><strong>Transnational Animation in the Age of Streaming</strong></p>
 <p>2025-04-25_Fri</p>
-<p>Reading TBA</p>
-<p>Demonstration of AI movie animation</p>
+<p>Ahn, “<a href="pdf/jiwon-ahn-samurai-champloo.pdf">Samurai Champloo: Transnational Viewing</a>” (in Ethan Thompson and Jason Mittell, eds., <strong>How To Watch Television</strong> (New York: New York University Press, 2013): 364-72)</p>
+<p>Agnoli and Denison, “<a href="https://oldjournal.animationstudies.org/francis-m-agnoli-rayna-denison-introducing-transnational-animation-a-special-issue-of-animation-studies/">Introducing Transnational Animation</a>” (special issue of <strong>Animation Studies</strong>, 24 July 2019)</p>
+<p><strong>Samurai Champloo</strong>; <strong>Afro-Samurai</strong>; <strong>Samurai Jack</strong></p>
 <p><strong>DEADLINE: Research Paper/Project</strong></p>
 <hr>
 <p><em>Week 15</em></p>
-<p>2025-05-01_Fri</p>
-<p>Research Papers/Projects: Exhibition and Discussion</p>
-<p>2024-05-01 Fri&nbsp;<strong>Last day of classes</strong></p>
+<p><strong>Everything Everywhere All At Once: The Animation Multiverse</strong></p>
+<p>2025-05-02_Fri</p>
+<p>Screening: <strong>Spider-man: Across the Spider-Verse</strong></p>
+<p>2024-05-02 Fri <strong>Last day of classes</strong></p>
 <section id="policies" class="level3">
 <h3 class="anchored" data-anchor-id="policies"><strong>Policies</strong></h3>
 <section id="academic-honesty" class="level5">
@@ -370,385 +573,260 @@ Includes attendance, punctuality, preparation, participation in class and/or onl
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
     }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
       });
     }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
         }
       }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
         } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
           }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
+          return note.innerHTML;
+        }
       } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
         }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -756,186 +834,194 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
