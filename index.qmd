@@ -268,13 +268,13 @@ _Week 8_
 
 2025-05-07_Fri
 
-Bob Neaverson, "[Sergeant Pepper Goes to the Movies:  **Yellow Submarine**](pdf/bob-neaverson-yellow-submarine.pdf)" (in **The Beatles *Movies)**
+Bob Neaverson, "[Sergeant Pepper Goes to the Movies:  **Yellow Submarine**](pdf/bob-neaverson-yellow-submarine.pdf)" (in **The Beatles Movies**)
 
-Marie Beardmore, "[The Beatles'  **Yellow Submarine**](pdf/john-coates-yellow-submarine-ch8.pdf)" (in [**John Coates: The Man Who Built 'The Snowman'**](https://ebookcentral.proquest.com/lib/emerson/reader.action?docID=1977964&ppg=1)
+Marie Beardmore, "[The Beatles' **Yellow Submarine**](pdf/john-coates-yellow-submarine-ch8.pdf)" (in [**John Coates: The Man Who Built 'The Snowman'**](https://ebookcentral.proquest.com/lib/emerson/reader.action?docID=1977964&ppg=1)
 
 Make sure to watch:  [**Yellow Submarine**](https://libcat.emerson.edu/Record/e1327056)
 
-[**Brief Histories: Russia & Eastern Europe I**](pfd/animation-brief-histories.pdf)
+[**Brief Histories: Russia & Eastern Europe I**](pdf/animation-brief-histories.pdf)
 
 ----------
 
@@ -334,7 +334,7 @@ Tumblr:
 
 [Ghiblimania](https://canvas.emerson.edu/courses/2079757/files/175607515?wrap=1 "ghiblimania-1.pptx")
 
-(Powerpoint)
+[(Powerpoint)](ppt/ghiblimania.pptx)
 
 Films: **Pom Poko**; **The Tale of Princess Kaguya**
 
